@@ -1,6 +1,8 @@
 <template>
   <div id="nav-bar">
-    <nav class="flex items-center justify-between flex-wrap p-6">
+    <nav
+      class="fixed z-50 left-0 right-0 flex items-center justify-between flex-wrap p-6 bg-white dark:bg-black"
+    >
       <div class="flex items-start flex-shrink-0 mr-6">
         <router-link to="/startseite">
           <img
