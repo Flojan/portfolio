@@ -5,14 +5,14 @@
         <router-link to="/startseite">
           <img
             v-if="theme === 'dark'"
-            class="w-16"
+            class="w-24"
             src="../assets/Florian-Logo-White.png"
             alt="logo"
             id="logo"
           />
           <img
             v-else-if="theme === 'light'"
-            class="w-16"
+            class="w-24"
             src="../assets/Florian-Logo-Black.png"
             alt="logo"
             id="logo"
@@ -60,6 +60,22 @@
       <div class="flex space-x-4">
         <div class="flex" @click="setTheme()">
           <svg
+            v-if="theme === 'dark'"
+            class="w-8"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9.66353 17H14.3365M8.46447 15.5355C6.51184 13.5829 6.51184 10.4171 8.46447 8.46447C10.4171 6.51184 13.5829 6.51184 15.5355 8.46447C17.4882 10.4171 17.4882 13.5829 15.5355 15.5355L14.9884 16.0826C14.3556 16.7155 14 17.5739 14 18.4689V19C14 20.1045 13.1046 21 12 21C10.8954 21 10 20.1045 10 19V18.4689C10 17.5739 9.64445 16.7155 9.01156 16.0826L8.46447 15.5355Z"
+            />
+          </svg>
+          <svg
+            v-else-if="theme === 'light'"
             class="w-8"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -75,7 +91,7 @@
           </svg>
         </div>
         <!-- <div v-if="lang"></div> -->
-        <div class="flex md:hidden">
+        <div class="flex md:hidden" id="burgermenu">
           <svg
             class="w-8"
             xmlns="http://www.w3.org/2000/svg"

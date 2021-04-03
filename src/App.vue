@@ -4,7 +4,9 @@
     <header class="bg-white dark:bg-black">
       <NavBar class="text-black dark:text-white" />
     </header>
-    <body class="bg-white dark:bg-black"></body>
+    <body class="bg-white dark:bg-black">
+      <Feature class="text-black dark:text-white" />
+    </body>
     <footer class="bg-white dark:bg-black"></footer>
   </html>
 </template>
@@ -22,6 +24,10 @@ export default defineComponent({
     Feature,
   },
   setup() {
+    window.scroll({
+      top: 1000,
+      behavior: "smooth",
+    });
     const { theme } = useTheme();
     console.log("THEME-STATE:", theme.value);
     console.log("THEME-LS:", localStorage.getItem("theme"));
