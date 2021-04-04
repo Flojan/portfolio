@@ -1,7 +1,7 @@
 <template>
   <div id="nav-bar">
     <nav
-      class="fixed z-50 left-0 right-0 flex items-center justify-between flex-wrap p-6 bg-white dark:bg-black"
+      class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-6 bg-white dark:bg-black"
     >
       <div class="flex items-start flex-shrink-0 mr-6">
         <router-link to="/startseite">
@@ -10,14 +10,12 @@
             class="w-24"
             src="../assets/Florian-Logo-White.png"
             alt="logo"
-            id="logo"
           />
           <img
             v-else-if="theme === 'light'"
             class="w-24"
             src="../assets/Florian-Logo-Black.png"
             alt="logo"
-            id="logo"
           />
         </router-link>
       </div>
@@ -115,7 +113,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onBeforeMount, watch } from "vue";
+import { defineComponent, onBeforeMount } from "vue";
 import { useTheme } from "../modules/theme";
 
 export default defineComponent({

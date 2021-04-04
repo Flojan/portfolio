@@ -1,14 +1,17 @@
-<template class="{localStorage.getItem('theme')}">
-  <html class="bg-white dark:bg-black">
-    <head class="bg-white dark:bg-black"> </head>
-    <header class="bg-white dark:bg-black">
-      <NavBar class="text-black dark:text-white" />
-    </header>
-    <body class="bg-white dark:bg-black">
-      <Feature class="text-black dark:text-white" />
-    </body>
-    <footer class="bg-white dark:bg-black"></footer>
-  </html>
+<template>
+  <div id="app">
+    <html class="bg-white dark:bg-black">
+      <head class="bg-white dark:bg-black"> </head>
+      <header class="bg-white dark:bg-black">
+        <ProgressBar />
+        <NavBar class="text-black dark:text-white" />
+      </header>
+      <body class="bg-white dark:bg-black">
+        <router-view />
+      </body>
+      <footer class="bg-white dark:bg-black"></footer>
+    </html>
+  </div>
 </template>
 
 <script lang="ts">
@@ -16,18 +19,16 @@ import { defineComponent, onBeforeMount, watch } from "vue";
 import { useTheme } from "./modules/theme";
 import Feature from "./components/Feature.vue";
 import NavBar from "./components/NavBar.vue";
+import ProgressBar from "./components/ProgressBar.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     NavBar,
     Feature,
+    ProgressBar,
   },
   setup() {
-    window.scroll({
-      top: 1000,
-      behavior: "smooth",
-    });
     const { theme } = useTheme();
     console.log("THEME-STATE:", theme.value);
     console.log("THEME-LS:", localStorage.getItem("theme"));
@@ -55,8 +56,4 @@ export default defineComponent({
 });
 </script>
 
-<style>
-/* html {
-  background-color: black;
-} */
-</style>
+<style></style>
