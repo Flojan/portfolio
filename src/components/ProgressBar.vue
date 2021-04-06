@@ -15,10 +15,9 @@ export default defineComponent({
   name: "ProgressBar",
   setup() {
     onMounted(() => {
-      scrollAnimation();
-      console.log("Test");
+      progressBarScroll();
     });
-    function scrollAnimation() {
+    function progressBarScroll() {
       gsap.registerPlugin(ScrollTrigger);
       gsap.to("progress", {
         value: 100,

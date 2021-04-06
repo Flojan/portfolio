@@ -3,7 +3,7 @@
     <nav
       class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-6 bg-white dark:bg-black"
     >
-      <div class="flex items-start flex-shrink-0 mr-6">
+      <div id="logo" class="flex items-start flex-shrink-0 mr-6">
         <router-link to="/startseite">
           <img
             v-if="theme === 'dark'"
@@ -113,8 +113,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onBeforeMount } from "vue";
+import { defineComponent, onBeforeMount, onMounted } from "vue";
 import { useTheme } from "../modules/theme";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 export default defineComponent({
   name: "NavBar",
@@ -123,6 +125,30 @@ export default defineComponent({
     onBeforeMount(() => {
       getTheme();
     });
+
+    onMounted(() => {
+      rotateLogoScroll();
+    });
+
+    function rotateLogoScroll() {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: "#wrap",
+            pin: true,
+            scrub: 0.2,
+            start: "top top",
+            end: "+=10000",
+          },
+        })
+        .to("#logo", {
+          rotation: 360 * 5,
+          duration: 1,
+          ease: "none",
+        });
+    }
+
     return { setTheme, theme };
   },
 });

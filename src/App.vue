@@ -11,6 +11,12 @@
       </body>
       <footer class="bg-white dark:bg-black"></footer>
     </html>
+    <div class="bg-white dark:bg-black">
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </div>
   </div>
 </template>
 
@@ -56,4 +62,14 @@ export default defineComponent({
 });
 </script>
 
-<style></style>
+<style>
+section {
+  min-height: 100vh;
+  padding: 10vw 5vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+</style>
