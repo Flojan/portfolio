@@ -17,6 +17,8 @@
       <section></section>
       <section></section>
     </div>
+    <div class="custom-cursor"></div>
+    <CustomCursor />
   </div>
 </template>
 
@@ -26,6 +28,7 @@ import { useTheme } from "./modules/theme";
 import Feature from "./components/Feature.vue";
 import NavBar from "./components/NavBar.vue";
 import ProgressBar from "./components/ProgressBar.vue";
+import CustomCursor from "./components/CustomCursor.vue";
 
 export default defineComponent({
   name: "App",
@@ -33,6 +36,7 @@ export default defineComponent({
     NavBar,
     Feature,
     ProgressBar,
+    CustomCursor,
   },
   setup() {
     const { theme } = useTheme();
@@ -63,6 +67,9 @@ export default defineComponent({
 </script>
 
 <style>
+* {
+  cursor: none;
+}
 section {
   min-height: 100vh;
   padding: 10vw 5vh;

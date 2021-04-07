@@ -90,7 +90,6 @@
             />
           </svg>
         </div>
-        <!-- <div v-if="lang"></div> -->
         <div class="flex md:hidden" id="burgermenu">
           <svg
             class="w-8"
@@ -116,7 +115,7 @@
 import { defineComponent, onBeforeMount, onMounted } from "vue";
 import { useTheme } from "../modules/theme";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default defineComponent({
   name: "NavBar",
