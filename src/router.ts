@@ -13,8 +13,8 @@ const router = createRouter({
       component: OnePager,
     },
     { 
-      path: '/startseite',
-      name: 'startseite',
+      path: '/',
+      name: 'Feature',
       component: Feature,
     }
   ]

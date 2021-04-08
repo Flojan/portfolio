@@ -1,5 +1,5 @@
 <template>
-  <div id="custom-cursor"></div>
+  <div class="z-50 hidden md:block" id="custom-cursor"></div>
 </template>
 
 <script lang="ts">

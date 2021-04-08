@@ -67,8 +67,10 @@ export default defineComponent({
 </script>
 
 <style>
-* {
-  cursor: none;
+@media (min-width: 768px) {
+  * {
+    cursor: none;
+  }
 }
 section {
   min-height: 100vh;

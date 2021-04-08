@@ -1,10 +1,10 @@
 <template>
   <div id="nav-bar">
     <nav
-      class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-6 bg-white dark:bg-black"
+      class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-6 bg-transparent"
     >
       <div id="logo" class="flex items-start flex-shrink-0 mr-6">
-        <router-link to="/startseite">
+        <router-link to="/">
           <img
             v-if="theme === 'dark'"
             class="w-24"
@@ -22,36 +22,36 @@
       <div class="w-full flex-grow md:items-center md:w-auto hidden md:block">
         <div class="flex justify-end text-sm sm:flex-grow">
           <router-link
-            to="/welcome"
+            to="/"
             class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-gray-400 mr-4"
             >welcome</router-link
           >
           <router-link
-            to="/about-me"
+            to="/"
             class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-gray-400 mr-4"
             >about me</router-link
           >
 
           <router-link
-            to="/experience"
+            to="/"
             class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-gray-400 mr-4"
             >experience</router-link
           >
 
           <router-link
-            to="/education"
+            to="/"
             class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-gray-400 mr-4"
             >education</router-link
           >
 
           <router-link
-            to="/skills"
+            to="/"
             class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-gray-400 mr-4"
             >skills</router-link
           >
 
           <router-link
-            to="/say-hello"
+            to="/"
             class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-gray-400 mr-4"
             >say hello</router-link
           >

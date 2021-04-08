@@ -2,13 +2,13 @@
   <div class="flex items-center justify-center min-h-screen">
     <div id="feature-text" class="z-0 absolute">
       <h1
-        class="mt-20 dark:text-white uppercase text-center text-feature font-black"
+        class="mb-20 md:mb-32 dark:text-white uppercase text-center text-feature font-black"
       >
         <p id="florian" class="tracking-wider">Florian</p>
         <p id="schmidt" class="leading-10">Schmidt</p>
       </h1>
     </div>
-    <div id="feature-img" class="z-10 justify-center mt-40 w-2/4">
+    <div id="feature-img" class="z-10 justify-center lg:mt-20 w-2/4">
       <img
         v-if="theme === 'dark'"
         src="../assets/portrait_florian_big_darkmode.png"
@@ -20,7 +20,7 @@
         alt="Portrait-Florian"
       />
     </div>
-    <div class="dark:text-white self-end absolute mb-4 z-20">
+    <div class="dark:text-white self-end absolute mb-20 md:mb-10 z-20">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-14 w-10"
@@ -59,19 +59,23 @@ export default defineComponent({
 
     function fadeinName() {
       gsap.from("#florian", {
-        x: -800,
+        x: -1600,
+        delay: 1,
         duration: 1,
       });
       gsap.to("#florian", {
         x: 0,
+        delay: 1,
         duration: 1,
       });
       gsap.from("#schmidt", {
-        x: 800,
+        x: 1600,
+        delay: 1,
         duration: 1,
       });
       gsap.to("#schmidt", {
         x: 0,
+        delay: 1,
         duration: 1,
       });
     }
@@ -79,7 +83,7 @@ export default defineComponent({
     function opacityPersonIMG() {
       gsap.from("#feature-img", {
         opacity: 0,
-        delay: 2,
+        delay: 2.5,
       });
       gsap.to("#florian", {
         opacity: 100,
