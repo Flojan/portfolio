@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        'feature': '20vw'
+        'feature': 'clamp(4rem, 20vw, 23rem)'
       },
       backgroundColor: theme => ({
         ...theme('colors'),

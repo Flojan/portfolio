@@ -1,40 +1,41 @@
 <template>
-  <div class="flex items-center justify-center min-h-screen">
+  <div class="flex flex-col items-center justify-center min-h-screen">
     <div id="feature-text" class="z-0 absolute">
-      <h1
-        class="mb-20 md:mb-32 dark:text-white uppercase text-center text-feature font-black"
-      >
+      <h1 class="dark:text-white uppercase text-center text-feature font-black">
         <p id="florian" class="tracking-wider">Florian</p>
         <p id="schmidt" class="leading-10">Schmidt</p>
       </h1>
     </div>
-    <div id="feature-img" class="z-10 justify-center lg:mt-20 w-2/4">
+    <div id="feature-img" class="z-10 w-2/4 max-w-3xl mt-28">
       <img
         v-if="theme === 'dark'"
-        src="../assets/portrait_florian_big_darkmode.png"
+        src="../assets/images/portrait_florian_big_darkmode.png"
         alt="Portrait-Florian"
       />
       <img
         v-if="theme === 'light'"
-        src="../assets/portrait_florian_big_lightmode.png"
+        src="../assets/images/portrait_florian_big_lightmode.png"
         alt="Portrait-Florian"
       />
     </div>
-    <div class="dark:text-white self-end absolute mb-20 md:mb-10 z-20">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-14 w-10"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M16 17l-4 4m0 0l-4-4m4 4V3"
-        />
-      </svg>
+    <div id="scrollDown" class="dark:text-white z-20">
+      <router-link to="/">
+        <svg
+          href="#"
+          xmlns="http://www.w3.org/2000/svg"
+          class="max-h-10"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M16 17l-4 4m0 0l-4-4m4 4V3"
+          />
+        </svg>
+      </router-link>
     </div>
   </div>
 </template>
@@ -55,6 +56,7 @@ export default defineComponent({
     onMounted(() => {
       fadeinName();
       opacityPersonIMG();
+      opacityScrollDown();
     });
 
     function fadeinName() {
@@ -80,13 +82,18 @@ export default defineComponent({
       });
     }
 
+    function opacityScrollDown() {
+      gsap.from("#scrollDown", {
+        opacity: 0,
+        delay: 4,
+        duration: 1,
+      });
+    }
+
     function opacityPersonIMG() {
       gsap.from("#feature-img", {
         opacity: 0,
         delay: 2.5,
-      });
-      gsap.to("#florian", {
-        opacity: 100,
       });
     }
     return { theme };
