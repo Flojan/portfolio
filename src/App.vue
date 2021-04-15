@@ -91,4 +91,40 @@ section {
 nav {
   font-family: "Questa Medium", Helvetica, sans-serif;
 }
+.underline-effect {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.underline-effect:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1vw;
+  width: 0;
+  transition: width 0s ease, background 0.5s ease;
+}
+.underline-effect:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 1vw;
+  width: 0;
+  background: #76d8cf;
+  transition: width 0.5s ease;
+}
+.underline-effect:hover:before {
+  width: 100%;
+  background: #76d8cf;
+  transition: width 0.5s ease;
+}
+.underline-effect:hover:after {
+  width: 100%;
+  background: transparent;
+  transition: all 0s ease;
+}
 </style>

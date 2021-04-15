@@ -50,7 +50,7 @@
           >
 
           <router-link
-            @click="scrollTo('#hello')"
+            @click="scrollTo('#sayhello')"
             to="/"
             class="block mt-4 sm:inline-block sm:mt-0 mr-4"
             >say hello</router-link

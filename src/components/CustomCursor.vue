@@ -11,11 +11,11 @@ export default defineComponent({
   setup() {
     onBeforeMount(() => {
       document.addEventListener("DOMContentLoaded", function (event) {
-        var cursor = document.querySelector(".custom-cursor");
-        var links = document.querySelectorAll("a");
-        var initCursor = false;
+        let cursor = document.querySelector(".custom-cursor");
+        let links = document.querySelectorAll("a");
+        let initCursor = false;
 
-        for (var i = 0; i < links.length; i++) {
+        for (let i = 0; i < links.length; i++) {
           var selfLink = links[i];
 
           selfLink.addEventListener("mouseover", function () {
@@ -31,8 +31,8 @@ export default defineComponent({
         }
 
         window.onmousemove = function (event: MouseEvent) {
-          var mouseX = event.clientX;
-          var mouseY = event.clientY;
+          let mouseX = event.clientX;
+          let mouseY = event.clientY;
 
           if (!initCursor) {
             gsap.to(cursor, 0.3, {
@@ -73,32 +73,10 @@ export default defineComponent({
   transform: translate(-50%, -50%) scale(0.3);
   z-index: 1000;
 }
-/* :hover ~ #custom-cursor {
-  position: fixed;
-  opacity: 0;
-  pointer-events: none;
-  mix-blend-mode: difference;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: rgb(255, 0, 0);
-  transition: transform 350ms ease;
-  transform: translate(-50%, -50%) scale(0.3);
-  z-index: 1000;
-} */
 
 .custom-cursor--link {
   transform: translate(-50%, -50%) scale(1);
 }
-
-/* #custom-cursor--link {
-  transform: translate(-50%, -50%) scale(1);
-} */
-
-/* :hover ~ #custom-cursor {
-  transform: translate(-50%, -50%) scale(1);
-} */
-
 #box {
   color: beige;
   min-height: 100%;

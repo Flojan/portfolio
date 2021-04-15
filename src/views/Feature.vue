@@ -19,7 +19,7 @@
       />
     </div>
     <div id="scrollDown" class="dark:text-white z-20">
-      <router-link to="/">
+      <router-link @click="scrollTo('#about')" to="/">
         <svg
           href="#"
           xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +43,7 @@
 <script lang="ts">
 import { defineComponent, onBeforeUnmount, onMounted } from "vue";
 import gsap from "gsap";
+import ScrollToPlugin from "gsap/ScrollToPlugin";
 import { useTheme } from "../modules/theme";
 
 export default defineComponent({
@@ -96,7 +97,13 @@ export default defineComponent({
         delay: 2.5,
       });
     }
-    return { theme };
+
+    function scrollTo(hash: string) {
+      gsap.registerPlugin(ScrollToPlugin);
+      gsap.to(window, { duration: 1, scrollTo: { y: hash, offsetY: 150 } });
+      console.log(hash);
+    }
+    return { theme, scrollTo };
   },
 });
 </script>
