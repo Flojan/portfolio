@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen justify-center">
     <div
-      class="text-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl dark:text-white content-evenly"
+      class="text-black dark:text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl content-evenly"
     >
       <h1>
         <a href="mailto:florian@designzigartig.de">

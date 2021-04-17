@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <html class="bg-white dark:bg-black">
+      <head>
+        <link rel="stylesheet" href="https://use.typekit.net/srg3odg.css" />
+      </head>
       <header class="bg-white dark:bg-black">
         <ProgressBar />
         <NavBar />
@@ -8,7 +11,9 @@
       <body class="text-black bg-white dark:text-white dark:bg-black">
         <router-view />
       </body>
-      <footer class="bg-white dark:bg-black"></footer>
+      <footer>
+        <Footer />
+      </footer>
     </html>
     <CustomCursor />
   </div>
@@ -20,17 +25,15 @@ import { useTheme } from "./modules/theme";
 import CustomCursor from "./components/CustomCursor.vue";
 import ProgressBar from "./components/ProgressBar.vue";
 import NavBar from "./components/NavBar.vue";
-import Feature from "./views/Feature.vue";
-import OnePager from "./views/OnePager.vue";
+import Footer from "./components/Footer.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     CustomCursor,
-    NavBar,
-    // Feature,
-    OnePager,
     ProgressBar,
+    NavBar,
+    Footer,
   },
   setup() {
     const { theme } = useTheme();
@@ -66,16 +69,6 @@ export default defineComponent({
     cursor: none;
   }
 }
-@font-face {
-  font-family: "Questa Sans Black";
-  src: local("Questa Sans Black"),
-    url(./assets/fonts/QuestaSans-Black.otf) format("opentype");
-}
-@font-face {
-  font-family: "Questa Medium";
-  src: local("Questa Medium"),
-    url(./assets/fonts/Questa-Medium.otf) format("opentype");
-}
 ::selection {
   background: #76d8cf;
 }
@@ -86,11 +79,15 @@ h1,
 h2,
 h3,
 section {
-  font-family: "Questa Sans Black", Helvetica, sans-serif;
+  font-family: questa-sans, Helvetica, Arial;
+  font-weight: 900;
 }
-nav {
-  font-family: "Questa Medium", Helvetica, sans-serif;
+nav,
+p {
+  font-family: questa-grande, Helvetica, sans-serif;
+  font-weight: 400;
 }
+
 .underline-effect {
   display: inline-block;
   position: relative;
