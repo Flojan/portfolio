@@ -1,19 +1,35 @@
 <template>
-  <div
-    id="about"
-    class="min-h-screen flex flex-col px-4 justify-center max-w-2xl"
-  >
-    <div>
+  <div id="about" class="w-full">
+    <div class="max-w-xl">
       <h2 class="text-3xl pb-3">Hey, mein Name ist Florian</h2>
       <p class="text-lg">
-        und das ist meine Portfolio Website. Ich komme aus Oppenheim, einem
+        und das ist meine Portfolio-Website. Ich komme aus Oppenheim, einem
         kleinen Städtchen am Rhein. Ich bin gelernter Fachinformatiker &
         studiere derzeit im letzten Studienjahr Medieninformatik. In den letzten
         Jahren habe ich ein großes Interesse an der Web-Entwicklung gefunden,
         weswegen ich mich auch zusammen mit meiner Schwester in diesem Bereich
-        selbstständig gemacht habe. <br />
-        Schau dich gerne weiter um!
+        selbstständig gemacht habe. Scroll gerne weiter!
       </p>
+      <a
+        href="src/assets/Lebenslauf_Florian-Schmidt.pdf"
+        download="CV-FlorianSchmidt"
+        class="button underline-effect py-5 text-xl"
+        >Download CV
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-8 w-8 inline-block mb-2"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+          />
+        </svg>
+      </a>
     </div>
   </div>
 </template>

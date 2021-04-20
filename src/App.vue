@@ -78,9 +78,14 @@ export default defineComponent({
 h1,
 h2,
 h3,
+h4,
 section {
   font-family: questa-sans, Helvetica, Arial;
   font-weight: 900;
+}
+.button {
+  font-family: questa-sans, Helvetica, Arial;
+  font-weight: 500;
 }
 nav,
 p {
