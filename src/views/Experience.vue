@@ -6,20 +6,21 @@
       </h2>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-      <div>
-        <h3 class="text-3xl">designzigartig GbR</h3>
-        <h4 class="text-xl pb-4">2019 – Heute</h4>
+      <div class="pb-8 lg:pb-0">
+        <h3 class="text-5xl pb-1">2019 – Heute</h3>
+        <h4 class="text-2xl pb-4">designzigartig GbR</h4>
         <p class="text-lg">
-          Nachdem ich die Leidenschaft zur Webentwicklung gefunden habe, wollte
-          ich das Ganze auch neben der Uni machen. Deshalb bin ich zur
-          Selbständigkeit meiner Schwester dazugestoßen. Sie ist Designerin und
-          ich Web-Entwickler/Designer. Nun sind wir designzigartig, eine Full
-          Service Agentur, welche unter anderem Websites erstellt.
+          Nachdem ich die Leidenschaft zur Webentwicklung entwickelt habe,
+          entschloss ich mich mein bereits fundiertes Wissen in reellen
+          Projekten einzubringen. Deshalb bin ich zur Selbstständigkeit meiner
+          Schwester dazugestoßen. Sie ist Designerin und ich Web-Entwickler mit
+          einer Leidenschaft für gutes Design. Nun sind wir designzigartig, eine
+          Full Service Agentur, welche unter anderem Websites erstellt.
         </p>
       </div>
-      <div>
-        <h3 class="text-3xl">Medieninformatik Studium</h3>
-        <h4 class="text-xl pb-4">2016 – Heute</h4>
+      <div class="pb-8 lg:pb-0">
+        <h3 class="text-5xl pb-1">2016 – Heute</h3>
+        <h4 class="text-2xl pb-4">Medieninformatik Studium</h4>
         <p class="text-lg">
           Nach meiner Ausbildung habe ich mich für den Medieninformatik
           Studiengang an der Hochschule RheinMain entschieden, um meine bereits
@@ -28,9 +29,9 @@
           mich im letzten Studienjahr.
         </p>
       </div>
-      <div>
-        <h3 class="text-3xl">Fachinformatiker Systemint. Ausbildung</h3>
-        <h4 class="text-xl pb-4">2013 – 2016</h4>
+      <div class="pb-8 lg:pb-0">
+        <h3 class="text-5xl pb-1">2013 – 2016</h3>
+        <h4 class="text-2xl pb-4">Fachinformatiker Systemint. Ausbildung</h4>
         <p class="text-lg">
           Meine Ausbildung zum Fachinformatiker für Systemintegration
           absolvierte ich an der JGU Mainz im Institut für Kernphysik in der
@@ -40,9 +41,9 @@
           gewährleistet sie die Betreuung der ca. 300 Benutzer mit ihren PCs.
         </p>
       </div>
-      <div>
-        <h3 class="text-3xl">Fachoberschule tech. Informatik</h3>
-        <h4 class="text-xl pb-4">2011 – 2013</h4>
+      <div class="pb-8 lg:pb-0">
+        <h3 class="text-5xl pb-1">2011 – 2013</h3>
+        <h4 class="text-2xl pb-4">Fachoberschule tech. Informatik</h4>
         <p class="text-lg">
           Meine IT-Grundkenntnisse verbesserte ich als ich die Fachoberschule
           Nierstein, Schwerpunkt technische Informatik besuchte. In der 11.
