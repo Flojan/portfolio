@@ -1,13 +1,13 @@
 <template>
-  <div class="flex flex-col min-h-screen justify-center">
+  <div id="sayhello" class="flex flex-col min-h-screen justify-center w-full">
     <div
-      class="text-black dark:text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl content-evenly"
+      class="text-black dark:text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl content-evenly"
     >
       <h1>
         <a href="mailto:florian@designzigartig.de">
           Sag Hallo und <br />
           kontaktiere mich <br />
-          <span class="underline-effect"> florian@designzigartig.de </span>
+          <span class="underline-effect z-50"> florian@designzigartig.de </span>
         </a>
       </h1>
     </div>

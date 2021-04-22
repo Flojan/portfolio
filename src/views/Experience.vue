@@ -1,14 +1,14 @@
 <template>
   <div id="experience" class="w-full">
     <div class="max-w-xl">
-      <h2 class="text-6xl -ml-1 pb-7 uppercase md:text-9xl md:-ml-2">
+      <h2 class="text-6xl -ml-1 pb-10 uppercase md:text-9xl md:-ml-2">
         Experience
       </h2>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div class="pb-8 lg:pb-0">
-        <h3 class="text-5xl pb-1">2019 – Heute</h3>
-        <h4 class="text-2xl pb-4">designzigartig GbR</h4>
+        <h3 class="text-3xl md:text-5xl pb-1">2019 – Heute</h3>
+        <h4 class="text-xl md:text-2xl pb-4">designzigartig GbR</h4>
         <p class="text-lg">
           Nachdem ich die Leidenschaft zur Webentwicklung entwickelt habe,
           entschloss ich mich mein bereits fundiertes Wissen in reellen
@@ -19,8 +19,8 @@
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
-        <h3 class="text-5xl pb-1">2016 – Heute</h3>
-        <h4 class="text-2xl pb-4">Medieninformatik Studium</h4>
+        <h3 class="text-3xl md:text-5xl pb-1">2016 – Heute</h3>
+        <h4 class="text-xl md:text-2xl pb-4">Medieninformatik Studium</h4>
         <p class="text-lg">
           Nach meiner Ausbildung habe ich mich für den Medieninformatik
           Studiengang an der Hochschule RheinMain entschieden, um meine bereits
@@ -30,8 +30,10 @@
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
-        <h3 class="text-5xl pb-1">2013 – 2016</h3>
-        <h4 class="text-2xl pb-4">Fachinformatiker Systemint. Ausbildung</h4>
+        <h3 class="text-3xl md:text-5xl pb-1">2013 – 2016</h3>
+        <h4 class="text-xl md:text-2xl pb-4">
+          Fachinformatiker Systemint. Ausbildung
+        </h4>
         <p class="text-lg">
           Meine Ausbildung zum Fachinformatiker für Systemintegration
           absolvierte ich an der JGU Mainz im Institut für Kernphysik in der
@@ -42,8 +44,10 @@
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
-        <h3 class="text-5xl pb-1">2011 – 2013</h3>
-        <h4 class="text-2xl pb-4">Fachoberschule tech. Informatik</h4>
+        <h3 class="text-3xl md:text-5xl pb-1">2011 – 2013</h3>
+        <h4 class="text-xl md:text-2xl pb-4">
+          Fachoberschule tech. Informatik
+        </h4>
         <p class="text-lg">
           Meine IT-Grundkenntnisse verbesserte ich als ich die Fachoberschule
           Nierstein, Schwerpunkt technische Informatik besuchte. In der 11.

@@ -23,35 +23,35 @@
         <div class="flex justify-end text-base sm:flex-grow">
           <router-link
             @click="scrollTo('#about')"
-            to="#scrolldown"
+            to="#about"
             class="block mt-4 sm:inline-block sm:mt-0 mr-4"
             >about me</router-link
           >
 
           <router-link
             @click="scrollTo('#experience')"
-            to="/"
+            to="#experience"
             class="block mt-4 sm:inline-block sm:mt-0 mr-4"
             >experience</router-link
           >
 
           <router-link
-            @click="scrollTo('#education')"
-            to="/"
+            @click="scrollTo('#projects')"
+            to="#projects"
             class="block mt-4 sm:inline-block sm:mt-0 mr-4"
-            >education</router-link
+            >projects</router-link
           >
 
           <router-link
             @click="scrollTo('#skills')"
-            to="/"
+            to="#skills"
             class="block mt-4 sm:inline-block sm:mt-0 mr-4"
             >skills</router-link
           >
 
           <router-link
             @click="scrollTo('#sayhello')"
-            to="/"
+            to="#sayhello"
             class="block mt-4 sm:inline-block sm:mt-0 mr-4"
             >say hello</router-link
           >

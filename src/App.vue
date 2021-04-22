@@ -1,20 +1,13 @@
 <template>
-  <div id="app">
-    <html class="bg-white dark:bg-black">
-      <head>
-        <link rel="stylesheet" href="https://use.typekit.net/srg3odg.css" />
-      </head>
-      <header class="bg-white dark:bg-black">
-        <ProgressBar />
-        <NavBar />
-      </header>
-      <body class="text-black bg-white dark:text-white dark:bg-black">
-        <router-view />
-      </body>
-      <footer>
-        <Footer />
-      </footer>
-    </html>
+  <div id="app" class="text-black bg-white dark:text-white dark:bg-black">
+    <header class="bg-white dark:bg-black">
+      <ProgressBar />
+      <NavBar />
+    </header>
+    <router-view />
+    <footer>
+      <Footer />
+    </footer>
     <CustomCursor />
   </div>
 </template>
@@ -107,6 +100,7 @@ p {
   height: 1vw;
   width: 0;
   transition: width 0s ease, background 0.5s ease;
+  z-index: -1;
 }
 .underline-effect:after {
   content: "";
@@ -118,6 +112,7 @@ p {
   width: 0;
   background: #76d8cf;
   transition: width 0.5s ease;
+  z-index: -1;
 }
 .underline-effect:hover:before {
   width: 100%;

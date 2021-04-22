@@ -5,11 +5,9 @@
       class="flex flex-col justify-center min-h-screen mx-auto max-w-6xl"
     />
     <Experience class="flex flex-col min-h-screen mx-auto max-w-6xl" />
-    <div class="bg-white dark:bg-black">
-      <section id="education" class="min-h-screen">EDUCATION</section>
-      <section id="skills" class="min-h-screen">SKILLS</section>
-    </div>
-    <SayHello id="sayhello" />
+    <Projects class="flex flex-col min-h-screen mx-auto max-w-6xl" />
+    <Skills class="flex flex-col min-h-screen mx-auto max-w-6xl" />
+    <SayHello class="flex flex-col min-h-screen mx-auto max-w-6xl" />
   </div>
 </template>
 
@@ -19,9 +17,11 @@ import Feature from "./Feature.vue";
 import About from "./About.vue";
 import SayHello from "./SayHello.vue";
 import Experience from "./Experience.vue";
+import Projects from "./Projects.vue";
+import Skills from "./Skills.vue";
 export default defineComponent({
   name: "OnePager",
-  components: { Feature, About, SayHello, Experience },
+  components: { Feature, About, SayHello, Experience, Projects, Skills },
   setup() {},
 });
 </script>

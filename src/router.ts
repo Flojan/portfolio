@@ -11,6 +11,9 @@ const router = createRouter({
       path: '/',
       name: 'onepager',
       component: OnePager,
+      meta: {
+        title: 'Florian Schmidt - Portfolio'
+      }
     },
     {
       path: '/:pathMatch(.*)*',
