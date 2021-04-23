@@ -6,7 +6,7 @@
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div class="pb-8 lg:pb-0">
-        <div class="flex pb-4">
+        <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Vue</h3>
           <svg
             aria-hidden="true"
@@ -36,7 +36,7 @@
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
-        <div class="flex pb-4">
+        <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">React</h3>
           <svg
             aria-hidden="true"
@@ -66,7 +66,7 @@
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
-        <div class="flex pb-4">
+        <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Spring</h3>
           <svg
             aria-hidden="true"
@@ -96,7 +96,7 @@
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
-        <div class="flex pb-4">
+        <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Joomla, Wordpress</h3>
           <svg
             aria-hidden="true"
@@ -147,7 +147,7 @@
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
-        <div class="flex pb-4">
+        <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Python</h3>
           <svg
             aria-hidden="true"
@@ -182,7 +182,7 @@
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
-        <div class="flex pb-4">
+        <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Flutter</h3>
           <svg
             aria-hidden="true"

@@ -7,7 +7,7 @@
         <a href="mailto:florian@designzigartig.de">
           Sag Hallo und <br />
           kontaktiere mich <br />
-          <span class="underline-effect z-50"> florian@designzigartig.de </span>
+          <span class="underline-effect z-0"> florian@designzigartig.de </span>
         </a>
       </h1>
     </div>
