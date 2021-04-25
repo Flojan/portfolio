@@ -213,6 +213,92 @@
         </p>
       </div>
     </div>
+    <div class="mt-6 pb-8 lg:pb-0 grid grid-cols-1">
+      <div class="flex items-center pb-4">
+        <h3 class="text-3xl md:text-5xl pb-1">Sketch, Figma, Adobe</h3>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fab"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 448"
+          class="w-10 ml-4"
+        >
+          <path
+            d="M208-208H-176.1A32.14,32.14,0,0,0-208-175.7V207.7A32.14,32.14,0,0,0-176.1,240H208a32.22,32.22,0,0,0,32-32.3V-175.7A32.22,32.22,0,0,0,208-208Z"
+            transform="translate(208 208)"
+            class="fill-current text-black dark:text-white"
+          />
+          <path
+            d="M-130.9-44.27l-11.88,16h58.14l4.43-84ZM106-119.11l-82.62-8.8L110.6-33.34ZM-76.49-8.22l-7.2-14.13h-58.53L2.27,145.78Zm1.29-20H107.26l-91.17-99Zm191,5.84-86,168.2L174.21-22.35h-58.4Zm2.5-81.72-6-8.1.58,11.12,3.91,72.86h58Zm-194,15.74-3,55L8.65-127.91-74-119.11Zm184.84,66H-77.13L16.1,159.91Z"
+            transform="translate(208 208)"
+            class="fill-current text-white dark:text-black"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fab"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 448"
+          class="w-10 ml-4"
+        >
+          <path
+            d="M208-208H-176.1A32.14,32.14,0,0,0-208-175.7V207.7A32.14,32.14,0,0,0-176.1,240H208a32.22,32.22,0,0,0,32-32.3V-175.7A32.22,32.22,0,0,0,208-208Z"
+            transform="translate(208 208)"
+            class="fill-current text-black dark:text-white"
+          />
+          <path
+            d="M16,16c0-70,105-70,105,0S16,86,16,16ZM-89,121A52.47,52.47,0,0,1-36.51,68.53H16V121c0,70-105,70-105,0ZM16-141.53v105H68.51c70,0,70-105,0-105ZM-89-89A52.47,52.47,0,0,0-36.51-36.51H16v-105H-36.51A52.48,52.48,0,0,0-89-89Zm0,105A52.47,52.47,0,0,0-36.51,68.52H16v-105H-36.51A52.47,52.47,0,0,0-89,16Z"
+            transform="translate(208 208)"
+            class="fill-current text-white dark:text-black"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fab"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 448"
+          class="w-10 ml-4"
+        >
+          <g id="Adobe">
+            <path
+              d="M312-119H-72.1A32.14,32.14,0,0,0-104-86.7V296.7A32.14,32.14,0,0,0-72.1,329H312a32.22,32.22,0,0,0,32-32.3V-86.7A32.22,32.22,0,0,0,312-119Z"
+              transform="translate(104 119)"
+              class="fill-current text-black dark:text-white"
+            />
+            <path
+              d="M118.73,71.54c.32.32,76.18,173.36,76.12,173.2H145.12c0-.51-23.52-56.41-23.28-56.79H68.24c.49.14,51.22-117.12,50.49-116.52Z"
+              transform="translate(104 119)"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M-42.85-34.74H73.68c.32,0-115.74,279.48-116.15,279.1S-42.74-34.93-42.85-34.74Z"
+              transform="translate(104 119)"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M162.37-34.74H282.85V244.5c0,.92-120.39-279.24-120.39-279.24Z"
+              transform="translate(104 119)"
+              class="fill-current text-white dark:text-black"
+            />
+          </g>
+        </svg>
+      </div>
+      <!-- https://flutter.dev/ -->
+      <p class="text-lg">
+        Als Medieninformatiker habe ich von Anfang an gelernt, was gutes Design
+        ist und welche Schritte es benötigt, um gutes Design zu erstellen.
+        Mindestens einmal im Semester hatte ich es mit einer Gestaltungssoftware
+        zu tun, um entweder Wireframes, Screendesigns oder ganze Booklet zu
+        gestalten. Hierfür hatte ich anfangs nur die Adobe-Suite benutzt und für
+        elektronische Medien ist dann Sketch und Figma hinzugekommen.
+      </p>
+    </div>
   </div>
 </template>
 
