@@ -1,8 +1,9 @@
 <template>
   <div id="skills" class="w-full">
-    <div class="max-w-xl pb-10">
-      <h2 class="text-6xl -ml-1 uppercase md:text-9xl md:-ml-2">Skills</h2>
-      <p></p>
+    <div class="max-w-xl">
+      <h2 class="text-6xl -ml-1 pb-10 uppercase md:text-9xl md:-ml-2">
+        Skills
+      </h2>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div class="pb-8 lg:pb-0">

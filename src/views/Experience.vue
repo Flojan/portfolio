@@ -67,7 +67,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "OnePager",
+  name: "Experience",
   components: {},
   setup() {},
 });
