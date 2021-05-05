@@ -1,7 +1,7 @@
 <template>
   <div id="nav-bar">
     <nav
-      class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-6 bg-white dark:bg-black text-black dark:text-white"
+      class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-2 pr-4 md:p-6 bg-white dark:bg-black text-black dark:text-white"
     >
       <div id="logo" class="flex items-start flex-shrink-0 mr-6">
         <router-link @click="scrollTo('#nav-bar')" to="/">
@@ -137,10 +137,9 @@
       <!-- Mobile menu -->
       <div
         v-if="open === true"
-        class="w-full md:flex-grow md:items-center md:w-auto md:hidden"
+        class="w-full md:flex-grow md:items-center md:w-auto md:hidden pb-6"
       >
         <div
-          v-if="open === true"
           class="flex flex-col items-center md:flex-row md:justify-end text-2xl md:hidden"
         >
           <router-link @click="scrollTo('#about')" to="#about" class="mt-4"
@@ -252,7 +251,7 @@ export default defineComponent({
 
     function scrollTo(hash: string) {
       gsap.registerPlugin(ScrollToPlugin);
-      gsap.to(window, { duration: 1, scrollTo: { y: hash, offsetY: 150 } });
+      gsap.to(window, { duration: 1, scrollTo: { y: hash, offsetY: 130 } });
       console.log(hash);
     }
 

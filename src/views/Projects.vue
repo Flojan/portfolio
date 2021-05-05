@@ -4,10 +4,9 @@
       <h2 class="text-6xl -ml-1 pb-10 uppercase md:text-9xl md:-ml-2">
         Projects
       </h2>
-      <p class="text-lg pb-32 max-w-3xl">
+      <p class="text-lg pb-8 md:pb-32 max-w-3xl">
         Hier gibt es eine Auswahl an privaten, beruflichen und Projekten während
-        meines Studiums. Hinter manchen befindet sich eine Live-Website oder ein
-        GitHub Repository.
+        meines Studiums.
       </p>
     </div>
     <div class="flex space-x-4 scroll">
@@ -290,7 +289,7 @@ export default defineComponent({
           invalidateOnRefresh: true,
           pin: true,
           scrub: 1,
-          start: "top 150",
+          start: "top 130",
         },
       });
     }

@@ -2,11 +2,15 @@
   <div class="flex flex-col px-4 md:px-8">
     <Feature />
     <About
-      class="flex flex-col justify-center min-h-screen mx-auto max-w-6xl mt-72"
+      class="flex flex-col justify-start md:justify-center min-h-screen mx-auto max-w-6xl mt-72"
     />
-    <Experience class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72" />
-    <Projects class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72" />
-    <Skills class="flex flex-col min-h-screen mx-auto max-w-6xl" />
+    <Experience
+      class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72 mb-72"
+    />
+    <Projects class="flex flex-col min-h-screen mx-auto max-w-6xl" />
+    <Skills
+      class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72 md:mt-0"
+    />
     <SayHello class="flex flex-col min-h-screen mx-auto max-w-6xl" />
   </div>
 </template>
