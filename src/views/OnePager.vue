@@ -6,8 +6,8 @@
     />
     <Experience class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72" />
     <Projects class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72" />
-    <Skills class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72" />
-    <SayHello class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72" />
+    <Skills class="flex flex-col min-h-screen mx-auto max-w-6xl" />
+    <SayHello class="flex flex-col min-h-screen mx-auto max-w-6xl" />
   </div>
 </template>
 

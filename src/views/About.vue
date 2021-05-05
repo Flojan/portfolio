@@ -8,7 +8,7 @@
         kleinen Städtchen am Rhein. Ich bin gelernter Fachinformatiker &
         studiere derzeit im letzten Studienjahr Medieninformatik. In den letzten
         Jahren habe ich ein großes Interesse an der Web-Entwicklung gefunden,
-        weswegen ich mich auch zusammen mit meiner Schwester in diesem Bereich
+        weswegen ich mich zusammen mit meiner Schwester in diesem Bereich
         selbstständig gemacht habe. <br />
         Scroll gerne weiter!
       </p>

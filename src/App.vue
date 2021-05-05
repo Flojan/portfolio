@@ -97,7 +97,7 @@ p {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 1vw;
+  height: 0.5vw;
   width: 0;
   transition: width 0s ease, background 0.5s ease;
   z-index: -1;
@@ -108,7 +108,7 @@ p {
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 1vw;
+  height: 0.5vw;
   width: 0;
   background: #76d8cf;
   transition: width 0.5s ease;
