@@ -8,7 +8,7 @@
         <div id="schmidt" class="leading-10">Schmidt</div>
       </h1>
     </div>
-    <div id="feature-img" class="z-10 w-2/4 max-w-3xl mt-28">
+    <div id="feature-img" class="z-10 w-1/2 max-w-3xl mt-28">
       <img
         v-if="theme === 'dark'"
         src="../assets/images/portrait_florian_big_darkmode.png"
