@@ -7,7 +7,7 @@
     <Experience
       class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72 mb-72"
     />
-    <Projects class="flex flex-col min-h-screen mx-auto max-w-6xl" />
+    <Projects />
     <Skills
       class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72 md:mt-0"
     />
