@@ -1,14 +1,14 @@
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen">
-    <div id="feature-text" class="z-0 absolute">
+    <div id="feature-text" class="z-0 absolute overflow-hidden w-full">
       <h1
-        class="dark:text-white uppercase text-center text-feature font-black block"
+        class="dark:text-white uppercase text-center text-feature font-black block leading-none"
       >
         <div id="florian" class="tracking-wider">Florian</div>
-        <div id="schmidt" class="leading-10">Schmidt</div>
+        <div id="schmidt" class="">Schmidt</div>
       </h1>
     </div>
-    <div id="feature-img" class="z-10 w-1/2 max-w-3xl sm:mt-16 md:mt-28">
+    <div id="feature-img" class="z-10 w-1/2 max-w-3xl">
       <img
         v-if="theme === 'dark'"
         src="../assets/images/portrait_florian_big_darkmode.png"

@@ -1,7 +1,7 @@
 <template>
   <div id="nav-bar">
     <nav
-      class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-2 pr-4 md:p-6 bg-white dark:bg-black text-black dark:text-white"
+      class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-3 pr-4 md:p-6 bg-white dark:bg-black text-black dark:text-white"
     >
       <div id="logo" class="flex items-start flex-shrink-0 mr-6">
         <router-link @click="scrollTo('#nav-bar')" to="/">
