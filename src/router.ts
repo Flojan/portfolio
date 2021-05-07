@@ -11,14 +11,13 @@ const router = createRouter({
       path: '/',
       name: 'onepager',
       component: OnePager,
-      meta: {
-        title: 'Florian Schmidt - Portfolio'
-      }
+      meta: { showNavBar: true }
     },
     {
-      path: '/:pathMatch(.*)*',
+      path: '/:catchAll(.*)',
       name: 'PageNotFound',
       component: PageNotFound,
+      meta: { showNavBar: false }
     }
   ]
 })

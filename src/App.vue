@@ -2,7 +2,7 @@
   <div id="app" class="text-black bg-white dark:text-white dark:bg-black">
     <header class="bg-white dark:bg-black">
       <ProgressBar />
-      <NavBar />
+      <NavBar v-if="$route.meta.showNavBar" />
     </header>
     <router-view />
     <footer>

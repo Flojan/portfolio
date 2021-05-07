@@ -11,7 +11,7 @@
         class="h-6 w-6"
         fill="none"
         viewBox="0 0 24 24"
-        stroke="currentColor"
+        stroke="#76d8cf"
       >
         <path
           stroke-linecap="round"
@@ -34,8 +34,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-#designzigartig {
-  color: #76d8cf;
-}
-</style>
+<style></style>
