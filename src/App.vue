@@ -4,7 +4,7 @@
       <ProgressBar />
       <NavBar v-if="$route.meta.showNavBar" />
     </header>
-    <router-view />
+    <router-view @click="comfortClose" />
     <footer>
       <Footer />
     </footer>
@@ -15,6 +15,7 @@
 <script lang="ts">
 import { defineComponent, onBeforeMount, watch } from "vue";
 import { useTheme } from "./modules/theme";
+import { useMobileNav } from "./modules/mobileNav";
 import CustomCursor from "./components/CustomCursor.vue";
 import ProgressBar from "./components/ProgressBar.vue";
 import NavBar from "./components/NavBar.vue";
@@ -30,8 +31,7 @@ export default defineComponent({
   },
   setup() {
     const { theme } = useTheme();
-    // console.log("THEME-STATE:", theme.value);
-    // console.log("THEME-LS:", localStorage.getItem("theme"));
+    const { comfortClose } = useMobileNav();
 
     onBeforeMount(() => {
       changeTheme();
@@ -52,6 +52,7 @@ export default defineComponent({
         document.documentElement.classList.remove("dark");
       }
     }
+    return { comfortClose };
   },
 });
 </script>

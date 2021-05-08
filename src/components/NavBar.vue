@@ -211,8 +211,9 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onBeforeMount, onMounted, ref } from "vue";
+import { defineComponent, onBeforeMount, onMounted, reactive } from "vue";
 import { useTheme } from "../modules/theme";
+import { useMobileNav } from "../modules/mobileNav";
 import gsap from "gsap";
 import { ScrollTrigger, ScrollToPlugin } from "gsap/all";
 
@@ -220,7 +221,7 @@ export default defineComponent({
   name: "NavBar",
   setup() {
     const { setTheme, getTheme, theme } = useTheme();
-    const open = ref(false);
+    const { toggle, open } = useMobileNav();
 
     onBeforeMount(() => {
       getTheme();
@@ -253,14 +254,6 @@ export default defineComponent({
       gsap.registerPlugin(ScrollToPlugin);
       gsap.to(window, { duration: 1, scrollTo: { y: hash, offsetY: 130 } });
       console.log(hash);
-    }
-
-    function toggle() {
-      if (open.value === true) {
-        open.value = false;
-      } else {
-        open.value = true;
-      }
     }
 
     return { setTheme, theme, scrollTo, toggle, open };

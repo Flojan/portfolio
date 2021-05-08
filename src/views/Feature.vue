@@ -20,7 +20,7 @@
         alt="Portrait-Florian"
       />
     </div>
-    <div id="scrollDown" class="dark:text-white z-50">
+    <div id="scrollDown" class="dark:text-white">
       <router-link @click="scrollTo('#about')" to="/">
         <svg
           href="#"
