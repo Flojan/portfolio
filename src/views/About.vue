@@ -13,13 +13,13 @@
         Scroll gerne weiter!
       </p>
       <a
-        href="src/assets/Lebenslauf_Florian-Schmidt.pdf"
+        href="/Lebenslauf_Florian-Schmidt.pdf"
         download="CV-FlorianSchmidt"
         class="button underline-effect py-5 text-xl z-0"
         >Download CV
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-8 w-8 inline-block mb-2"
+          class="h-8 inline-block mb-2"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
