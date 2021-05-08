@@ -1,5 +1,5 @@
 <template>
-  <div class="z-50 hidden md:block custom-cursor"></div>
+  <div v-if="!isTouchDevice()" class="z-50 block custom-cursor" />
 </template>
 
 <script lang="ts">
@@ -10,6 +10,7 @@ export default defineComponent({
   name: "CustomCursor",
   setup() {
     onBeforeMount(() => {
+      isTouchDevice();
       document.addEventListener("DOMContentLoaded", function (event) {
         let cursor = document.querySelector(".custom-cursor");
         let links = document.querySelectorAll("a");
@@ -55,6 +56,20 @@ export default defineComponent({
         };
       });
     });
+
+    function isTouchDevice() {
+      if (
+        "ontouchstart" in window ||
+        navigator.maxTouchPoints > 0 ||
+        navigator.msMaxTouchPoints > 0
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    return { isTouchDevice };
   },
 });
 </script>
