@@ -1,5 +1,5 @@
 <template>
-  <div class="projects overflow-x-hidden min-h-screen w-full">
+  <div class="projects overflow-x-hidden min-h-screen max-h-screen w-full">
     <div id="projects" class="max-w-6xl mx-auto">
       <h2 class="text-6xl -ml-1 pb-10 uppercase md:text-9xl md:-ml-2">
         Projects
