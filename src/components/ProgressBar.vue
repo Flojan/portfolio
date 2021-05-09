@@ -1,6 +1,6 @@
 <template>
   <progress
-    class="z-50 fixed left-0 appearance-none w-full h-1 border-none bg-transparent"
+    class="z-50 fixed left-0 top-0 appearance-none w-full h-1 border-none bg-transparent"
     max="100"
     value="0"
   ></progress>
@@ -9,7 +9,7 @@
 <script lang="ts">
 import { defineComponent, onMounted } from "vue";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default defineComponent({
   name: "ProgressBar",
@@ -22,7 +22,13 @@ export default defineComponent({
       gsap.to("progress", {
         value: 100,
         ease: "none",
-        scrollTrigger: { scrub: 0.3 },
+        scrollTrigger: {
+          trigger: "#app",
+          scrub: 0.3,
+          start: "top top",
+          end: "bottom bottom",
+          // markers: true,
+        },
       });
     }
   },

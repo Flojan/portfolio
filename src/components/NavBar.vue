@@ -229,6 +229,8 @@ export default defineComponent({
 
     onMounted(() => {
       rotateLogoScroll();
+      gsap.registerPlugin(ScrollTrigger);
+      ScrollTrigger.refresh(true);
     });
 
     function rotateLogoScroll() {

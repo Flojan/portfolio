@@ -288,8 +288,9 @@ export default defineComponent({
           trigger: ".projects",
           invalidateOnRefresh: true,
           pin: true,
-          scrub: 1,
+          scrub: 0.7,
           start: "top 130",
+          // end: () => "+=" + (container as HTMLElement).offsetWidth,
         },
       });
     }
