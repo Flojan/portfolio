@@ -13,7 +13,7 @@
         Scroll gerne weiter!
       </p>
       <a
-        href="/Lebenslauf_Florian-Schmidt.pdf"
+        href="/CV_Florian-Schmidt.pdf"
         download="CV-FlorianSchmidt"
         class="button underline-effect py-5 text-xl z-0"
         >Download CV
