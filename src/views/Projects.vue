@@ -1,17 +1,23 @@
 <template>
-  <div class="projects overflow-x-hidden min-h-screen max-h-screen w-full">
-    <div id="projects" class="max-w-6xl mx-auto">
-      <h2 class="text-6xl -ml-1 pb-10 uppercase md:text-9xl md:-ml-2">
-        Projects
-      </h2>
+  <div
+    class="projects overflow-x-hidden min-h-screen max-h-screen w-full md:mb-72"
+  >
+    <div id="projects" class="mx-auto max-w-6xl px-4 md:px-8">
+      <h2 class="text-6xl pb-10 uppercase md:text-9xl md:-ml-2">Projects</h2>
       <p class="text-lg pb-8 md:pb-32 max-w-3xl">
         Hier gibt es eine Auswahl an privaten, beruflichen und Projekten während
         meines Studiums.
       </p>
     </div>
-    <div class="flex space-x-4 scroll">
+    <div class="flex space-x-6 ml-4 mr-4 scroll">
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="
+          w-full
+          2xl:w-1/2
+          flex flex-col flex-shrink-0
+          items-start
+          xl:items-center
+        "
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Meine Portfolio Website</h3>
@@ -47,7 +53,13 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="
+          w-full
+          2xl:w-1/2
+          flex flex-col flex-shrink-0
+          items-start
+          xl:items-center
+        "
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">designzigartig Website</h3>
@@ -82,7 +94,13 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="
+          w-full
+          2xl:w-1/2
+          flex flex-col flex-shrink-0
+          items-start
+          xl:items-center
+        "
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">iOS/Android App</h3>
@@ -118,7 +136,13 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="
+          w-full
+          2xl:w-1/2
+          flex flex-col flex-shrink-0
+          items-start
+          xl:items-center
+        "
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Designer Portfolio Website</h3>
@@ -154,7 +178,13 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="
+          w-full
+          2xl:w-1/2
+          flex flex-col flex-shrink-0
+          items-start
+          xl:items-center
+        "
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Clicker-Game als WebApp</h3>
@@ -189,7 +219,13 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="
+          w-full
+          2xl:w-1/2
+          flex flex-col flex-shrink-0
+          items-start
+          xl:items-center
+        "
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Firmenwebsite</h3>
@@ -224,7 +260,13 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="
+          w-full
+          2xl:w-1/2
+          flex flex-col flex-shrink-0
+          items-start
+          xl:items-center
+        "
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Webshop</h3>
@@ -256,7 +298,7 @@
       </div>
     </div>
   </div>
-  <section class="min-h-screen"></section>
+  <section class="min-h-screen" />
 </template>
 
 <script lang="ts">
@@ -278,11 +320,9 @@ export default defineComponent({
 
       gsap.to(".scroll", {
         x: () =>
-          -(
-            container!.scrollWidth -
-            document.documentElement.clientWidth +
-            30
-          ) + "px",
+          -(container!.scrollWidth - document.documentElement.clientWidth) +
+          -30 +
+          "px",
         ease: "none",
         scrollTrigger: {
           trigger: ".projects",
@@ -290,7 +330,7 @@ export default defineComponent({
           pin: true,
           scrub: 0.7,
           start: "top 130",
-          // end: () => "+=" + (container as HTMLElement).offsetWidth,
+          pinSpacing: false,
         },
       });
     }

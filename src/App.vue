@@ -58,11 +58,6 @@ export default defineComponent({
 </script>
 
 <style>
-@media (min-width: 768px) {
-  * {
-    cursor: none;
-  }
-}
 ::selection {
   background: #76d8cf;
 }

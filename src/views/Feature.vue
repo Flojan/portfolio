@@ -1,14 +1,21 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen">
+  <div class="flex flex-col items-center justify-center min-h-screen pt-4">
     <div id="feature-text" class="z-0 absolute overflow-hidden w-full">
       <h1
-        class="dark:text-white uppercase text-center text-feature font-black block leading-none"
+        class="
+          dark:text-white
+          uppercase
+          text-center text-feature
+          font-black
+          block
+          leading-none
+        "
       >
         <div id="florian" class="tracking-wider">Florian</div>
         <div id="schmidt" class="">Schmidt</div>
       </h1>
     </div>
-    <div id="feature-img" class="z-10 w-1/2 max-w-3xl">
+    <div id="feature-img" class="z-10 w-1/2 max-w-1.5xl">
       <img
         v-if="theme === 'dark'"
         src="../assets/images/portrait_florian_big_darkmode.png"

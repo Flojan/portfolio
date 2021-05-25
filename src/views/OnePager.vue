@@ -1,17 +1,47 @@
 <template>
-  <div class="flex flex-col px-4 md:px-8">
+  <div class="flex flex-col">
     <Feature />
     <About
-      class="flex flex-col justify-start md:justify-center min-h-screen mx-auto max-w-6xl mt-72"
+      class="
+        flex flex-col
+        justify-start
+        md:justify-center
+        min-h-screen
+        mx-auto
+        max-w-6xl
+        mt-72
+        px-4
+        md:px-8
+      "
     />
     <Experience
-      class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72 mb-72"
+      class="
+        flex flex-col
+        min-h-screen
+        mx-auto
+        max-w-6xl
+        md:mt-72
+        mb-72
+        px-4
+        md:px-8
+      "
     />
     <Projects />
     <Skills
-      class="flex flex-col min-h-screen mx-auto max-w-6xl mt-72 md:mt-0"
+      class="
+        flex flex-col
+        min-h-screen
+        mx-auto
+        max-w-6xl
+        mt-72
+        md:mt-0
+        px-4
+        md:px-8
+      "
     />
-    <SayHello class="flex flex-col min-h-screen mx-auto max-w-6xl" />
+    <SayHello
+      class="flex flex-col min-h-screen mx-auto max-w-6xl px-4 md:px-8"
+    />
   </div>
 </template>
 
