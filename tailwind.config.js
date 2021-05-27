@@ -12,8 +12,7 @@ module.exports = {
       },
       backgroundColor: theme => ({
         ...theme('colors'),
-        'white': 'rgba(247, 247, 247, 1)'
-        
+        'white': '#F7F7F7'
       }),
       maxWidth: {
         '1.5xl': '39rem',

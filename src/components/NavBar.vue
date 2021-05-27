@@ -1,7 +1,23 @@
 <template>
   <div id="nav-bar">
     <nav
-      class="fixed z-40 left-0 right-0 flex items-center justify-between flex-wrap p-3 pr-4 md:p-6 bg-white dark:bg-black text-black dark:text-white"
+      class="
+        fixed
+        z-40
+        left-0
+        right-0
+        flex
+        items-center
+        justify-between
+        flex-wrap
+        p-3
+        pr-4
+        md:p-6
+        dark:bg-black dark:bg-opacity-80
+        bg-white bg-opacity-80
+        text-black
+        dark:text-white
+      "
     >
       <div id="logo" class="flex items-start flex-shrink-0 mr-6">
         <router-link @click="scrollTo('#nav-bar')" to="/">
@@ -57,36 +73,38 @@
         </div>
 
         <div @click="toggle" class="md:hidden pt-1" id="burgermenu">
-          <svg
-            v-if="!open"
-            class="w-8"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h8m-8 6h16"
-            />
-          </svg>
-          <svg
-            v-else
-            class="w-8"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
+          <a>
+            <svg
+              v-if="!open"
+              class="w-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+            <svg
+              v-else
+              class="w-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </a>
         </div>
       </div>
 
@@ -95,7 +113,14 @@
         class="hidden w-full md:flex-grow md:items-center md:w-auto md:block"
       >
         <div
-          class="hidden md:flex items-center md:flex-row md:justify-end text-base"
+          class="
+            hidden
+            md:flex
+            items-center
+            md:flex-row
+            md:justify-end
+            text-base
+          "
         >
           <router-link
             @click="scrollTo('#about')"
@@ -140,7 +165,14 @@
         class="w-full md:flex-grow md:items-center md:w-auto md:hidden pb-6"
       >
         <div
-          class="flex flex-col items-center md:flex-row md:justify-end text-2xl md:hidden"
+          class="
+            flex flex-col
+            items-center
+            md:flex-row
+            md:justify-end
+            text-2xl
+            md:hidden
+          "
         >
           <router-link @click="scrollTo('#about')" to="#about" class="mt-4"
             >about me</router-link
