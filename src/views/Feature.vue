@@ -16,16 +16,34 @@
       </h1>
     </div>
     <div id="feature-img" class="z-10 w-1/2 max-w-1.5xl">
-      <img
-        v-if="theme === 'dark'"
-        src="../assets/images/portrait_florian_big_darkmode.png"
-        alt="Portrait-Florian"
-      />
-      <img
-        v-if="theme === 'light'"
-        src="../assets/images/portrait_florian_big_lightmode.png"
-        alt="Portrait-Florian"
-      />
+      <picture v-if="theme === 'dark'">
+        <source
+          srcset="../assets/images/portrait_florian_big_darkmode.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="../assets/images/portrait_florian_big_darkmode.png"
+          type="image/png"
+        />
+        <img
+          src="../assets/images/portrait_florian_big_darkmode.png"
+          alt="Portrait-Florian-Dark"
+        />
+      </picture>
+      <picture v-if="theme === 'light'">
+        <source
+          srcset="../assets/images/portrait_florian_big_lightmode.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="../assets/images/portrait_florian_big_lightmode.png"
+          type="image/png"
+        />
+        <img
+          src="../assets/images/portrait_florian_big_lightmode.png"
+          alt="Portrait-Florian-Light"
+        />
+      </picture>
     </div>
     <div id="scrollDown" class="dark:text-white">
       <router-link @click="scrollTo('#about')" to="/">
