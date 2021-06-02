@@ -30,7 +30,7 @@
             />
           </svg>
         </div>
-        <p class="text-lg">
+        <p class="text-xl">
           Mit dem Javascript Framework Vue 3 konnte ich bisher am meisten
           Erfahrung sammeln. In zwei Uni Modulen hatte ich die Chance, das
           Framework kennenzulernen und auch privat wurde es schon eingesetzt.
@@ -60,7 +60,7 @@
             />
           </svg>
         </div>
-        <p class="text-lg">
+        <p class="text-xl">
           React hatte ich in einem Uni Modul. Hierbei hatte ich das erste Mal
           kontakt mit einem Javascript-Framework, wodurch sich mein Interesse an
           der Webentwicklung nochmals verstärkte.
@@ -90,8 +90,7 @@
             />
           </svg>
         </div>
-        <!-- https://spring.io/ -->
-        <p class="text-lg">
+        <p class="text-xl">
           Spring ist ein Framework, welches auf der Programmiersprache Java
           basiert. Dieses habe ich in zwei Uni Modulen kennengelernt.
         </p>
@@ -141,7 +140,7 @@
             />
           </svg>
         </div>
-        <p class="text-lg">
+        <p class="text-xl">
           Die CMSe Joomla und WordPress verwendete ich bisher bei designzigartig
           ausschließlich, damit unsere Kunden ihre Website nach der Übergabe
           selbst bearbeiten bzw. erweitern können.
@@ -176,7 +175,7 @@
             />
           </svg>
         </div>
-        <p class="text-lg">
+        <p class="text-xl">
           Die Programmiersprache Python lernte ich in der Uni in einem Modul
           kennen. Python habe ich aber auch privat verwendet, um z. B. Bots zu
           schreiben.
@@ -206,8 +205,7 @@
             />
           </svg>
         </div>
-        <!-- https://flutter.dev/ -->
-        <p class="text-lg">
+        <p class="text-xl">
           Das UI-Entwicklungs-Kit Flutter habe ich bei einem Modul in der Uni
           benutzt. Hierbei wurde eine App programmiert, welche auf iOS und
           Android lief.
@@ -290,8 +288,7 @@
           </g>
         </svg>
       </div>
-      <!-- https://flutter.dev/ -->
-      <p class="text-lg">
+      <p class="text-xl">
         Als Medieninformatiker habe ich von Anfang an gelernt, was gutes Design
         ist und welche Schritte es benötigt, um gutes Design zu erstellen.
         Mindestens einmal im Semester hatte ich es mit einer Gestaltungssoftware

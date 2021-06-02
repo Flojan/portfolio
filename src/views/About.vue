@@ -2,8 +2,8 @@
   <div id="about" class="w-full">
     <div class="max-w-3xl">
       <h2 class="text-6xl pb-10 uppercase md:text-9xl">About me</h2>
-      <h3 class="text-3xl md:text-5xl pb-3">Hey, mein name ist Florian</h3>
-      <p class="text-lg">
+      <h3 class="text-3xl md:text-5xl pb-5">Hey, mein name ist Florian</h3>
+      <p class="text-xl">
         und das ist meine Portfolio-Website. Ich komme aus Oppenheim, einem
         kleinen Städtchen am Rhein. Ich bin gelernter Fachinformatiker &
         studiere derzeit im letzten Studienjahr Medieninformatik. In den letzten

@@ -113,14 +113,7 @@
         class="hidden w-full md:flex-grow md:items-center md:w-auto md:block"
       >
         <div
-          class="
-            hidden
-            md:flex
-            items-center
-            md:flex-row
-            md:justify-end
-            text-base
-          "
+          class="hidden md:flex items-center md:flex-row md:justify-end text-xl"
         >
           <router-link
             @click="scrollTo('#about')"

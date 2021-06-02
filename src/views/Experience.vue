@@ -9,7 +9,7 @@
       <div class="pb-8 lg:pb-0">
         <h3 class="text-3xl md:text-5xl pb-1">2019 – Heute</h3>
         <h4 class="text-xl md:text-2xl pb-4">designzigartig GbR</h4>
-        <p class="text-lg">
+        <p class="text-xl">
           Nachdem ich die Leidenschaft zur Webentwicklung entwickelt habe,
           entschloss ich mich mein bereits fundiertes Wissen in reellen
           Projekten einzubringen. Deshalb bin ich zur Selbstständigkeit meiner
@@ -21,12 +21,12 @@
       <div class="pb-8 lg:pb-0">
         <h3 class="text-3xl md:text-5xl pb-1">2016 – Heute</h3>
         <h4 class="text-xl md:text-2xl pb-4">Medieninformatik Studium</h4>
-        <p class="text-lg">
-          Nach meiner Ausbildung habe ich mich für den Medieninformatik
-          Studiengang an der Hochschule RheinMain entschieden, um meine bereits
-          erworbenen Fähigkeiten zu vertiefen, meine künstlerische Ader zu
-          erwecken und meine Programmierkenntnisse zu festigen. Derzeit befinde
-          mich im letzten Studienjahr.
+        <p class="text-xl">
+          Nach meiner Ausbildung habe ich mich für den Studiengang
+          Medieninformatik an der Hochschule RheinMain entschieden, um meine
+          bereits erworbenen Fähigkeiten zu vertiefen, meine künstlerische Ader
+          zu erwecken und meine programmier Skills besser kennenzulernen.
+          Derzeit befinde ich mich im letzten Studienjahr.
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
@@ -34,7 +34,7 @@
         <h4 class="text-xl md:text-2xl pb-4">
           Fachinformatiker Systemint. Ausbildung
         </h4>
-        <p class="text-lg">
+        <p class="text-xl">
           Meine Ausbildung zum Fachinformatiker für Systemintegration
           absolvierte ich an der JGU Mainz im Institut für Kernphysik in der
           EDV-Abteilung. Diese Abteilung ist für den Betrieb des
@@ -48,7 +48,7 @@
         <h4 class="text-xl md:text-2xl pb-4">
           Fachoberschule tech. Informatik
         </h4>
-        <p class="text-lg">
+        <p class="text-xl">
           Meine IT-Grundkenntnisse verbesserte ich als ich die Fachoberschule
           Nierstein, Schwerpunkt technische Informatik besuchte. In der 11.
           Klasse absolvierte ich ein einjähriges Praktikum bei der JGU Mainz im

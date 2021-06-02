@@ -1,15 +1,24 @@
 <template>
   <div id="sayhello" class="flex flex-col min-h-screen justify-center w-full">
     <div
-      class="text-black dark:text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl content-evenly"
+      class="
+        text-black
+        dark:text-white
+        text-3xl
+        sm:text-5xl
+        md:text-6xl
+        lg:text-7xl
+        xl:text-8xl
+        content-evenly
+      "
     >
-      <h1>
+      <h2>
         <a href="mailto:florian@designzigartig.de">
           Sag Hallo und <br />
           kontaktiere mich <br />
           <span class="underline-effect z-0"> florian@designzigartig.de </span>
         </a>
-      </h1>
+      </h2>
     </div>
     <div class="flex flex-row content-around pt-5 space-x-4">
       <div>

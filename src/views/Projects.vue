@@ -4,7 +4,7 @@
   >
     <div id="projects" class="mx-auto max-w-6xl px-4 md:px-8">
       <h2 class="text-6xl pb-10 uppercase md:text-9xl md:-ml-2">Projects</h2>
-      <p class="text-lg pb-8 md:pb-32 max-w-3xl">
+      <p class="text-xl pb-8 md:pb-32 max-w-3xl">
         Hier gibt es eine Auswahl an privaten, beruflichen und Projekten während
         meines Studiums.
       </p>
@@ -22,7 +22,7 @@
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Meine Portfolio Website</h3>
           <h4 class="text-xl md:text-2xl pb-4">Vue / tailwindcss / GSAP</h4>
-          <p class="text-lg">
+          <p class="text-xl">
             Meine persönliche Portfolio-Website ist eine ausführliche Version
             meines Lebenslaufes. Hierbei präsentiere ich ausgewählte Projekte
             und beschreibe meine gesammelte Erfahrung. Bei dem Design habe ich
@@ -64,7 +64,7 @@
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">designzigartig Website</h3>
           <h4 class="text-xl md:text-2xl pb-4">Joomla / CSS / JS</h4>
-          <p class="text-lg">
+          <p class="text-xl">
             Die designzigartig Website ist unsere Unternehmenswebsite von meiner
             Schwester und mir. Hierbei erschaffen wir individuelle und
             einzigartige Erscheinungsbilder für etablierte Firmen oder auch
@@ -105,7 +105,7 @@
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">iOS/Android App</h3>
           <h4 class="text-xl md:text-2xl pb-4">Flutter / Firebase</h4>
-          <p class="text-lg">
+          <p class="text-xl">
             Zusammen mit einem Kommilitonen entwickelten wir eine mobile App,
             welche die tägliche Ernährung trackt. Die App ist in erster Linie
             dazu da, um seine Kalorien zu zählen und unter der maximalen
@@ -147,7 +147,7 @@
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Designer Portfolio Website</h3>
           <h4 class="text-xl md:text-2xl pb-4">Joomla / CSS</h4>
-          <p class="text-lg">
+          <p class="text-xl">
             Für eine selbstständige Grafikdesignerin und Illustratorin erstellte
             ich eine online Portfolio Seite, bei der im Fokus ihre Projekte
             stehen. Minimalistisch wirken auf der Startseite zuerst die
@@ -189,7 +189,7 @@
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Clicker-Game als WebApp</h3>
           <h4 class="text-xl md:text-2xl pb-4">React</h4>
-          <p class="text-lg">
+          <p class="text-xl">
             Mit zwei weiteren Kommilitonen erstellten wir ein Endlos-Spiel, bei
             dem es hauptsächlich ums Klicken geht. Fürs Klicken gab es Punkte
             und dadurch wurden Extras freigeschaltet. Um die Daten persistent zu
@@ -230,7 +230,7 @@
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Firmenwebsite</h3>
           <h4 class="text-xl md:text-2xl pb-4">Joomla / CSS</h4>
-          <p class="text-lg">
+          <p class="text-xl">
             Für den Dekorationsservice "Das i-Tüpfelchen" erstellte ich eine
             Unternehmenswebsite, welche das Unternehmen vorstellt, die genauen
             Abläufe von Kontaktaufnahme bis hin zur Traumdeko aufzeigt und was
@@ -271,7 +271,7 @@
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Webshop</h3>
           <h4 class="text-xl md:text-2xl pb-4">Vue / Spring / Scrum</h4>
-          <p class="text-lg">
+          <p class="text-xl">
             Mit 7 weiteren Kommilitonen entwickelten wir einen Supermarkt
             Webshop, bei dem im Vordergrund stand, das Projekt mithilfe von
             Scrum durchzuführen. Hierbei nutzen wir die Open Source Software

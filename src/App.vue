@@ -64,22 +64,22 @@ export default defineComponent({
 ::-moz-selection {
   background: #76d8cf;
 }
-h1,
 h2,
 h3,
 h4,
 section {
-  font-family: questa-sans, Helvetica, Arial;
-  font-weight: 900;
+  font-family: questa-grande, Helvetica, sans-serif;
+  font-weight: 400;
 }
 .button {
   font-family: questa-sans, Helvetica, Arial;
-  font-weight: 500;
+  font-weight: 900;
 }
 nav,
-p {
-  font-family: questa-grande, Helvetica, sans-serif;
-  font-weight: 400;
+p,
+h1 {
+  font-family: questa-sans, Helvetica, Arial;
+  font-weight: 500;
 }
 
 .underline-effect {
