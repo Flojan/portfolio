@@ -153,50 +153,59 @@
       </div>
 
       <!-- Mobile menu -->
-      <div
-        v-if="open === true"
-        class="w-full md:flex-grow md:items-center md:w-auto md:hidden pb-6"
+      <transition
+        enter-active-class="transition-opacity duration-300 ease-out"
+        enter-from-class="transform scale-95 opacity-0"
+        enter-to-class="transform scale-100 opacity-100"
+        leave-active-class="transition duration-75 ease-out"
+        leave-from-class="transform scale-100 opacity-300"
+        leave-to-class="transform scale-95 opacity-0"
       >
         <div
-          class="
-            flex flex-col
-            items-center
-            md:flex-row
-            md:justify-end
-            text-2xl
-            md:hidden
-          "
+          v-if="open === true"
+          class="w-full md:flex-grow md:items-center md:w-auto md:hidden pb-6"
         >
-          <router-link @click="scrollTo('#about')" to="#about" class="mt-4"
-            >about me</router-link
+          <div
+            class="
+              flex flex-col
+              items-center
+              md:flex-row
+              md:justify-end
+              text-2xl
+              md:hidden
+            "
           >
+            <router-link @click="scrollTo('#about')" to="#about" class="mt-4"
+              >about me</router-link
+            >
 
-          <router-link
-            @click="scrollTo('#experience')"
-            to="#experience"
-            class="mt-4"
-            >experience</router-link
-          >
+            <router-link
+              @click="scrollTo('#experience')"
+              to="#experience"
+              class="mt-4"
+              >experience</router-link
+            >
 
-          <router-link
-            @click="scrollTo('#projects')"
-            to="#projects"
-            class="mt-4"
-            >projects</router-link
-          >
+            <router-link
+              @click="scrollTo('#projects')"
+              to="#projects"
+              class="mt-4"
+              >projects</router-link
+            >
 
-          <router-link @click="scrollTo('#skills')" to="#skills" class="mt-4"
-            >skills</router-link
-          >
+            <router-link @click="scrollTo('#skills')" to="#skills" class="mt-4"
+              >skills</router-link
+            >
 
-          <router-link
-            @click="scrollTo('#sayhello')"
-            to="#sayhello"
-            class="mt-4"
-            >say hello</router-link
-          >
+            <router-link
+              @click="scrollTo('#sayhello')"
+              to="#sayhello"
+              class="mt-4"
+              >say hello</router-link
+            >
+          </div>
         </div>
-      </div>
+      </transition>
       <div @click="setTheme()" class="hidden md:flex">
         <a>
           <svg
