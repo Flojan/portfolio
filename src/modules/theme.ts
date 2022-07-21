@@ -18,7 +18,7 @@ const setTheme = () => {
                 state.theme = String(localStorage.getItem("theme"))
             }
         } catch (e) {
-            state.error = e
+            // state.error = e
         }
 }
 
@@ -32,7 +32,7 @@ const getTheme = () => {
             state.theme = String(localStorage.getItem("theme"))
         }
     } catch (e) {
-        state.error = e
+        // state.error = e
     }
 }
 

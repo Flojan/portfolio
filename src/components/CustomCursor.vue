@@ -58,11 +58,7 @@ export default defineComponent({
     });
 
     function isTouchDevice() {
-      if (
-        "ontouchstart" in window ||
-        navigator.maxTouchPoints > 0 ||
-        navigator.msMaxTouchPoints > 0
-      ) {
+      if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {
         return true;
       } else {
         return false;
