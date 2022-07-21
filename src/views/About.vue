@@ -6,10 +6,11 @@
       <p class="text-xl">
         und das ist meine Portfolio-Website. Ich komme aus Oppenheim, einem
         kleinen Städtchen am Rhein. Ich bin gelernter Fachinformatiker &
-        studiere derzeit im letzten Studienjahr Medieninformatik. In den letzten
-        Jahren habe ich ein großes Interesse an der Web-Entwicklung gefunden,
-        weswegen ich mich zusammen mit meiner Schwester in diesem Bereich
-        selbstständig gemacht habe. <br />
+        studiere aktuell Medieninformatik. Derzeit bin ich kurz davor, die
+        Bachelor Thesis zu beginnen. In den letzten Jahren habe ich ein großes
+        Interesse an der Web-Entwicklung gefunden, weswegen ich mich zusammen
+        mit meiner Schwester in diesem Bereich selbstständig gemacht habe.
+        <br />
         Scroll gerne weiter!
       </p>
       <a

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center p-7 text-black dark:text-white">
+  <div class="flex justify-center pb-5 text-black dark:text-white">
     <a
       class="flex"
       href="https://designzigartig.de/"
@@ -21,6 +21,22 @@
         />
       </svg>
       &nbsp;by designzigartig</a
+    >
+  </div>
+  <div class="flex justify-center space-x-5 pb-7 text-black dark:text-white">
+    <a
+      class="flex"
+      href="https://designzigartig.de/impressum"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Impressum</a
+    >
+    <a
+      class="flex"
+      href="https://designzigartig.de/datenschutz"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Datenschutz</a
     >
   </div>
 </template>
