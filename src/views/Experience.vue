@@ -7,6 +7,20 @@
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div class="pb-8 lg:pb-0">
+        <h3 class="text-3xl md:text-5xl pb-1">2021 – Heute</h3>
+        <h4 class="text-xl md:text-2xl pb-4">3st kommunikation GmbH</h4>
+        <p class="text-xl">
+          Meine 6-Monatige berufspraktische Tätigkeit als Web-Developer
+          absolvierte ich bei 3st kommunikation GmbH. Es ist eine Agentur für
+          die Bereiche: Strategie, Design, Film, Redaktion und Programmierung.
+          Hierbei werden neue und faszinierende Markenerlebnisse erschaffen.
+          Durch die abwechslungsreichen Projekte in einer Agentur konnte ich
+          meinen Techstack erweitern und verbessern. Bei meinen Aufgaben hatte
+          ich es unter anderem mit ReactJS, Ruby, ReactNative und PugJS zu tun.
+          Nach meinem Praktikum wurde ich als Werkstudent eingestellt.
+        </p>
+      </div>
+      <div class="pb-8 lg:pb-0">
         <h3 class="text-3xl md:text-5xl pb-1">2019 – Heute</h3>
         <h4 class="text-xl md:text-2xl pb-4">designzigartig GbR</h4>
         <p class="text-xl">
@@ -26,7 +40,7 @@
           Medieninformatik an der Hochschule RheinMain entschieden, um meine
           bereits erworbenen Fähigkeiten zu vertiefen, meine künstlerische Ader
           zu erwecken und meine programmier Skills besser kennenzulernen.
-          Derzeit befinde ich mich im letzten Studienjahr.
+          Derzeit bin ich kurz davor, die Bachelor Thesis zu beginnen.
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
