@@ -42,11 +42,7 @@ export default defineComponent({
     });
 
     function changeTheme() {
-      if (
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
+      if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
       } else {
         document.documentElement.classList.remove("dark");
@@ -58,6 +54,19 @@ export default defineComponent({
 </script>
 
 <style>
+@font-face {
+  font-family: QuestaGrande-Regular;
+  src: url(/fonts/QuestaGrande-Regular.woff2), url(/fonts/QuestaGrande-Regular.woff);
+}
+@font-face {
+  font-family: QuestaSans-Regular;
+  src: url(/fonts/QuestaSans-Regular.woff2), url(/fonts/QuestaSans-Regular.woff);
+}
+@font-face {
+  font-family: QuestaSans-Black;
+  src: url(/fonts/QuestaSans-Black.woff2), url(/fonts/QuestaSans-Black.woff);
+}
+
 ::selection {
   background: #76d8cf;
 }
@@ -68,18 +77,17 @@ h2,
 h3,
 h4,
 section {
-  font-family: questa-grande, Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: QuestaGrande-Regular, Helvetica, sans-serif;
 }
-.button {
-  font-family: questa-sans, Helvetica, Arial;
-  font-weight: 900;
+.button,
+#florian,
+#schmidt {
+  font-family: QuestaSans-Black, Helvetica, Arial;
 }
 nav,
 p,
 h1 {
-  font-family: questa-sans, Helvetica, Arial;
-  font-weight: 500;
+  font-family: QuestaSans-Regular, Helvetica, Arial;
 }
 
 .underline-effect {
