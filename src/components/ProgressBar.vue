@@ -1,5 +1,6 @@
 <template>
   <progress
+    id="progressBar"
     class="z-50 fixed left-0 top-0 appearance-none w-full h-1 border-none bg-transparent"
     max="100"
     value="0"

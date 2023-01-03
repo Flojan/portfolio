@@ -6,28 +6,135 @@
       <h2 class="text-6xl pb-10 uppercase md:text-9xl md:-ml-2">Projects</h2>
       <p class="text-xl pb-8 md:pb-32 max-w-3xl">
         Hier gibt es eine Auswahl an privaten, beruflichen und Projekten während
-        meines Studiums.
+        meines Studiums. Zu manchen Projekten gibt es einen Link zum Repository
+        oder zur Website.
       </p>
     </div>
     <div class="flex space-x-6 ml-4 mr-4 scroll">
       <div
-        class="
-          w-full
-          2xl:w-1/2
-          flex flex-col flex-shrink-0
-          items-start
-          xl:items-center
-        "
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+      >
+        <div class="max-w-xl">
+          <h3 class="text-3xl md:text-5xl pb-1">Website-Analyse-Plattform</h3>
+          <h4 class="text-xl md:text-2xl pb-4">
+            Next.js / Prisma / MySQL / Tailwind CSS
+          </h4>
+          <p class="text-xl">
+            Um die Website-Nutzer lückenloser zu analysieren, wurde eine
+            Plattform entwickelt, welche die Nutzer ohne Einwilligung unter
+            Einhaltung der Datenschutzrichtlinien analysiert. Die Plattform ist
+            so aufgebaut, dass nur die wichtigsten Indikatoren auf einer Seite
+            angezeigt werden, sodass auch nicht Marketer die Daten verstehen
+            können.
+          </p>
+          <a
+            class="button underline-effect py-5 text-xl z-0"
+            href="https://github.com/Flojan/wapplytics"
+            target="_blank"
+            rel="noopener noreferrer"
+            >zum Projekt
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 inline-block mb-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+      >
+        <div class="max-w-xl">
+          <h3 class="text-3xl md:text-5xl pb-1">Pizza Caterer Website</h3>
+          <h4 class="text-xl md:text-2xl pb-4">Joomla / JS / SCSS</h4>
+          <p class="text-xl">
+            Für den Cateringservice „Rollende Pizzeria“ wurde eine moderne
+            Website im Streetfoodstyle erstellt. Hierbei gibt es viele
+            Illustrationen, die durch das Scrollen mit dem Nutzer interagieren.
+            Damit der Kunde die Inhalte selbst bearbeiten kann, wurde die
+            Website mit einem Content-Management-System erstellt.
+          </p>
+          <a
+            class="button underline-effect py-5 text-xl z-0"
+            href="https://rollendepizzeria.de"
+            target="_blank"
+            rel="noopener noreferrer"
+            >zum Projekt
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 inline-block mb-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+      >
+        <div class="max-w-xl">
+          <h3 class="text-3xl md:text-5xl pb-1">Musikalbum Landingpage</h3>
+          <h4 class="text-xl md:text-2xl pb-4">
+            Vue.js/Next.js / Tailwind CSS
+          </h4>
+          <p class="text-xl">
+            Hierbei wurde eine Landingpage für ein neues Musikalbum einer
+            Musikerin erstellt. Anfangs wurde die Seite mit Vue.js und Tailwind
+            CSS umgesetzt, aber aus SEO Gründen wurde letztendlich auf Next.js
+            umgestellt, da dabei die Seiten automatisch vor gerendert werden.
+          </p>
+          <a
+            class="button underline-effect py-5 text-xl z-0"
+            href="https://github.com/Flojan/avacharlie_nextjs"
+            target="_blank"
+            rel="noopener noreferrer"
+            >zum Projekt
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 inline-block mb-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Meine Portfolio Website</h3>
-          <h4 class="text-xl md:text-2xl pb-4">Vue / tailwindcss / GSAP</h4>
+          <h4 class="text-xl md:text-2xl pb-4">Vue.js / Tailwind CSS / GSAP</h4>
           <p class="text-xl">
             Meine persönliche Portfolio-Website ist eine ausführliche Version
             meines Lebenslaufes. Hierbei präsentiere ich ausgewählte Projekte
-            und beschreibe meine gesammelte Erfahrung. Bei dem Design habe ich
-            mich an der designzigartig Website orientiert und aktuelle Trends
-            hinzugefügt.
+            und beschreibe meine gesammelte Erfahrung. Das Design wurde unter
+            Berücksichtigung aktueller Trends umgesetzt und mithilfe des
+            Animation-Frameworks GSAP abgerundet.
           </p>
           <a
             class="button underline-effect py-5 text-xl z-0"
@@ -53,22 +160,17 @@
         </div>
       </div>
       <div
-        class="
-          w-full
-          2xl:w-1/2
-          flex flex-col flex-shrink-0
-          items-start
-          xl:items-center
-        "
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">designzigartig Website</h3>
-          <h4 class="text-xl md:text-2xl pb-4">Joomla / CSS / JS</h4>
+          <h4 class="text-xl md:text-2xl pb-4">Joomla / JS / CSS</h4>
           <p class="text-xl">
             Die designzigartig Website ist unsere Unternehmenswebsite von meiner
             Schwester und mir. Hierbei erschaffen wir individuelle und
             einzigartige Erscheinungsbilder für etablierte Firmen oder auch
-            Startups, sowohl digital als auch analog.
+            Startups, sowohl digital als auch analog. Der bald stattfindende
+            Relaunch wird mit Next.js umgesetzt.
           </p>
           <a
             class="button underline-effect py-5 text-xl z-0"
@@ -94,22 +196,16 @@
         </div>
       </div>
       <div
-        class="
-          w-full
-          2xl:w-1/2
-          flex flex-col flex-shrink-0
-          items-start
-          xl:items-center
-        "
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">iOS/Android App</h3>
           <h4 class="text-xl md:text-2xl pb-4">Flutter / Firebase</h4>
           <p class="text-xl">
             Zusammen mit einem Kommilitonen entwickelten wir eine mobile App,
-            welche die tägliche Ernährung trackt. Die App ist in erster Linie
-            dazu da, um seine Kalorien zu zählen und unter der maximalen
-            Kalorien Zufuhr zu bleiben. Für die Daten Persistenz verwendeten wir
+            welche die tägliche Ernährung trackt. In erster Linie ist die App
+            dazu gedacht, seine Kalorien zu zählen und unter der maximalen
+            Kalorienzufuhr zu bleiben. Für die Datenpersistenz verwendeten wir
             Firebase.
           </p>
           <a
@@ -136,13 +232,7 @@
         </div>
       </div>
       <div
-        class="
-          w-full
-          2xl:w-1/2
-          flex flex-col flex-shrink-0
-          items-start
-          xl:items-center
-        "
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Designer Portfolio Website</h3>
@@ -178,22 +268,17 @@
         </div>
       </div>
       <div
-        class="
-          w-full
-          2xl:w-1/2
-          flex flex-col flex-shrink-0
-          items-start
-          xl:items-center
-        "
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Clicker-Game als WebApp</h3>
-          <h4 class="text-xl md:text-2xl pb-4">React</h4>
+          <h4 class="text-xl md:text-2xl pb-4">React.js / CSS</h4>
           <p class="text-xl">
             Mit zwei weiteren Kommilitonen erstellten wir ein Endlos-Spiel, bei
             dem es hauptsächlich ums Klicken geht. Fürs Klicken gab es Punkte
             und dadurch wurden Extras freigeschaltet. Um die Daten persistent zu
-            halten, wurde uns ein Backend-Server zur Verfügung gestellt.
+            halten, wurde uns verschiedene API-Schnittstellen zur Verfügung
+            gestellt.
           </p>
           <a
             class="button underline-effect py-5 text-xl z-0"
@@ -219,22 +304,16 @@
         </div>
       </div>
       <div
-        class="
-          w-full
-          2xl:w-1/2
-          flex flex-col flex-shrink-0
-          items-start
-          xl:items-center
-        "
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Firmenwebsite</h3>
           <h4 class="text-xl md:text-2xl pb-4">Joomla / CSS</h4>
           <p class="text-xl">
-            Für den Dekorationsservice "Das i-Tüpfelchen" erstellte ich eine
-            Unternehmenswebsite, welche das Unternehmen vorstellt, die genauen
-            Abläufe von Kontaktaufnahme bis hin zur Traumdeko aufzeigt und was
-            alles für den Kunden Angeboten wird.
+            Für den Dekorationsservice „Das i-Tüpfelchen“ erstellte ich eine
+            Unternehmenswebsite, welche das Unternehmen vorstellt. Hierbei
+            wurden die genauen Abläufe von Kontaktaufnahme bis hin zur Traumdeko
+            ansehnlich dargestellt und die verschiedenen Services aufgezeigt.
           </p>
           <a
             class="button underline-effect py-5 text-xl z-0"
@@ -260,17 +339,11 @@
         </div>
       </div>
       <div
-        class="
-          w-full
-          2xl:w-1/2
-          flex flex-col flex-shrink-0
-          items-start
-          xl:items-center
-        "
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Webshop</h3>
-          <h4 class="text-xl md:text-2xl pb-4">Vue / Spring / Scrum</h4>
+          <h4 class="text-xl md:text-2xl pb-4">Vue.js / Spring / Scrum</h4>
           <p class="text-xl">
             Mit 7 weiteren Kommilitonen entwickelten wir einen Supermarkt
             Webshop, bei dem im Vordergrund stand, das Projekt mithilfe von
@@ -328,7 +401,7 @@ export default defineComponent({
           trigger: ".projects",
           invalidateOnRefresh: true,
           pin: true,
-          scrub: 0.7,
+          scrub: 1,
           start: "top 130",
           pinSpacing: false,
         },

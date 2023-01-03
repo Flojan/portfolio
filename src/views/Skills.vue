@@ -8,7 +8,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div class="pb-8 lg:pb-0">
         <div class="flex items-center pb-4">
-          <h3 class="text-3xl md:text-5xl pb-1">Vue</h3>
+          <h3 class="text-3xl md:text-5xl pb-1">Vue.js</h3>
           <svg
             aria-hidden="true"
             focusable="false"
@@ -31,14 +31,17 @@
           </svg>
         </div>
         <p class="text-xl">
-          Das Javascript Framework Vue 3 konnte ich bisher in zwei Uni Modulen
-          kennenlernen und auch privat wurde es schon in zwei Projekten
-          eingesetzt.
+          Das JavaScript-Framework Vue.js 3 konnte ich bisher in zwei Uni
+          Modulen kennenlernen und auch privat wurde es schon in mehreren
+          Projekten eingesetzt. Hierbei handelte es sich um den ersten Kontakt
+          mit einem JavaScript-Framework. Aufgrund der geringen Lernkurve konnte
+          ich dabei schnell mithilfe meiner HTML und CSS Kenntnisse Fortschritte
+          erzielen.
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
         <div class="flex items-center pb-4">
-          <h3 class="text-3xl md:text-5xl pb-1">React</h3>
+          <h3 class="text-3xl md:text-5xl pb-1">React.js, Next.js</h3>
           <svg
             aria-hidden="true"
             focusable="false"
@@ -59,17 +62,6 @@
               transform="translate(208 208)"
             />
           </svg>
-        </div>
-        <p class="text-xl">
-          Das Framework React hatte ich in einem Uni Modul. Hierbei kam es zum
-          ersten Kontakt mit einem Javascript-Framework, wodurch sich mein
-          Interesse an der Webentwicklung nochmals verstärkte. Außerdem konnte
-          ich bei der Firma 3st mein Wissen stark verbessern.
-        </p>
-      </div>
-      <div class="pb-8 lg:pb-0">
-        <div class="flex items-center pb-4">
-          <h3 class="text-3xl md:text-5xl pb-1">Spring</h3>
           <svg
             aria-hidden="true"
             focusable="false"
@@ -80,20 +72,70 @@
             class="w-10 ml-4"
           >
             <path
-              d="M380.75-175.45H-3.35a32.14,32.14,0,0,0-31.9,32.3v383.4a32.14,32.14,0,0,0,31.9,32.3h384.1a32.22,32.22,0,0,0,32-32.3v-383.4A32.22,32.22,0,0,0,380.75-175.45Z"
-              transform="translate(35.25 175.45)"
+              d="M416 0H31.9004C23.3902 0.0634435 15.2526 3.49958 9.27244 9.55473C3.29227 15.6099 -0.0422 23.7897 0.000403278 32.3V415.7C-0.0422 424.21 3.29227 432.39 9.27244 438.445C15.2526 444.5 23.3902 447.937 31.9004 448H416C424.521 447.942 432.672 444.511 438.67 438.457C444.667 432.404 448.022 424.221 448 415.7V32.3C448.022 23.7789 444.667 15.5962 438.67 9.54282C432.672 3.48939 424.521 0.0581563 416 0Z"
               class="fill-current text-black dark:text-white"
             />
-            <path
-              d="M322.12-94.47A137.39,137.39,0,0,1,304.74-64c-62.18-64.53-164.82-66.2-229-4s-66.2,164.83-4,229a59.9,59.9,0,0,0,6.68,6.35l6,5.35c68.2,57.5,170.51,48.81,228-19.39a161.59,161.59,0,0,0,37.78-92.94C354.89,19.87,342.52-32.28,322.12-94.47ZM101.8,169c-4.68,6-13.37,6.69-19.39,2s-6.68-13.38-2-19.39,13.37-6.69,19.39-2A14.08,14.08,0,0,1,101.8,169ZM321.12,120.5c-39.78,53.16-125.37,35.11-179.87,37.78,0,0-9.69.67-19.39,2,0,0,3.68-1.67,8.36-3.35,38.45-13.37,56.5-16,79.91-28.08,43.79-22.4,87.59-71.54,96.28-122.36-16.72,48.81-67.53,90.93-113.67,108-31.76,11.7-88.93,23.06-88.93,23.06l-2.34-1.33C62.69,117.16,61.35,32.91,132.23,5.83c31.09-12,60.51-5.35,94.28-13.37,35.77-8.36,77.23-35.11,93.94-70.21C339.17-21.25,361.91,66.34,321.12,120.5Z"
-              transform="translate(35.25 175.45)"
-              class="fill-current text-white dark:text-black"
-            />
+            <mask
+              id="mask0_1_2"
+              style="mask-type: alpha"
+              maskUnits="userSpaceOnUse"
+              x="43"
+              y="43"
+              width="362"
+              height="362"
+            >
+              <path
+                d="M224 405C323.964 405 405 323.964 405 224C405 124.036 323.964 43 224 43C124.036 43 43 124.036 43 224C43 323.964 124.036 405 224 405Z"
+              />
+            </mask>
+            <g mask="url(#mask0_1_2)">
+              <path
+                d="M224 405C323.964 405 405 323.964 405 224C405 124.036 323.964 43 224 43C124.036 43 43 124.036 43 224C43 323.964 124.036 405 224 405Z"
+                class="fill-current text-white"
+              />
+              <path
+                d="M343.678 359.79L182.052 151.6H151.6V296.339H175.961V182.54L324.554 374.521C331.248 370.04 337.637 365.119 343.678 359.79Z"
+                fill="url(#paint0_linear_1_2)"
+              />
+              <path
+                d="M274.278 151.6H298.412V296.4H274.278V151.6Z"
+                fill="url(#paint1_linear_1_2)"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_2"
+                x1="258.459"
+                y1="277.294"
+                x2="322.601"
+                y2="356.796"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop class="" />
+                <stop offset="1" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_1_2"
+                x1="286.345"
+                y1="151.6"
+                x2="285.937"
+                y2="257.937"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop />
+                <stop offset="1" stop-opacity="0" />
+              </linearGradient>
+            </defs>
           </svg>
         </div>
         <p class="text-xl">
-          Spring ist ein Framework, welches auf der Programmiersprache Java
-          basiert. Dieses habe ich in zwei Uni Modulen kennengelernt.
+          Mit React.js hatte ich in einem Uni Modul den ersten Kontakt, wodurch
+          sich mein Interesse an der Webentwicklung nochmals verstärkte.
+          Außerdem konnte ich bei der Firma 3st mein Wissen stark verbessern.
+          Durch diese Erfahrung kam ich auf das Framework Next.js, welches auf
+          React.js basiert und sowohl für das Frontend als auch das Backend
+          eingesetzt werden kann. Next.js kam in meiner Bachelor-Arbeit und
+          bereits zuvor bei einem Kundenprojekt zum Einsatz.
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
@@ -142,9 +184,10 @@
           </svg>
         </div>
         <p class="text-xl">
-          Die CMSe Joomla und WordPress verwendete ich bisher bei designzigartig
-          ausschließlich, damit unsere Kunden ihre Website nach der Übergabe
-          selbst bearbeiten bzw. erweitern können.
+          Die CMS Joomla und WordPress verwendete ich anfangs ausschließlich bei
+          designzigartig, damit unsere Kunden ihre Website nach der Übergabe
+          selbst bearbeiten bzw. erweitern können. Falls die Kunden dies nicht
+          benötigten, habe ich stattdessen Next.js oder Vue.js verwendet.
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
@@ -178,13 +221,13 @@
         </div>
         <p class="text-xl">
           Die Programmiersprache Python lernte ich in der Uni in einem Modul
-          kennen. Python habe ich aber auch privat verwendet, um z. B. Bots zu
-          schreiben.
+          kennen. Auch privat nutze ich Python als Werkzeug, zum Beispiel um
+          kleine Skripte oder Bots zu schreiben.
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
         <div class="flex items-center pb-4">
-          <h3 class="text-3xl md:text-5xl pb-1">Flutter</h3>
+          <h3 class="text-3xl md:text-5xl pb-1">Java</h3>
           <svg
             aria-hidden="true"
             focusable="false"
@@ -195,21 +238,81 @@
             class="w-10 ml-4"
           >
             <path
-              d="M400,32H15.9A32.14,32.14,0,0,0-16,64.3V447.7A32.14,32.14,0,0,0,15.9,480H400a32.22,32.22,0,0,0,32-32.3V64.3A32.22,32.22,0,0,0,400,32Z"
-              transform="translate(16 -32)"
+              d="M416 0H31.9004C23.3902 0.0634435 15.2526 3.49958 9.27244 9.55473C3.29227 15.6099 -0.0422 23.7897 0.000403278 32.3V415.7C-0.0422 424.21 3.29227 432.39 9.27244 438.445C15.2526 444.5 23.3902 447.937 31.9004 448H416C424.521 447.942 432.672 444.511 438.67 438.457C444.667 432.404 448.022 424.221 448 415.7V32.3C448.022 23.7789 444.667 15.5962 438.67 9.54282C432.672 3.48939 424.521 0.0581563 416 0Z"
               class="fill-current text-black dark:text-white"
             />
             <path
-              d="M349,82.26,120.74,311.05,67,257.28l174.62-175H349M348.34,244H241l-93.53,93.74,91.82,92H345.78L254.67,337.9Z"
-              transform="translate(16 -32)"
+              d="M222.752 112.407C206.441 123.879 187.954 136.882 178.049 158.394C160.845 195.923 213.254 236.861 215.494 238.586C216.015 238.987 216.637 239.186 217.259 239.186C217.919 239.186 218.579 238.961 219.116 238.512C220.157 237.641 220.452 236.163 219.827 234.96C219.637 234.594 200.825 198.053 201.524 171.838C201.772 162.708 214.549 152.351 228.077 141.385C240.467 131.341 254.51 119.957 262.727 106.641C280.766 77.3278 260.717 48.5046 260.512 48.2176C259.716 47.0995 258.246 46.6933 256.989 47.2454C255.733 47.7986 255.038 49.1574 255.325 50.4987C255.365 50.6886 259.265 69.7493 248.415 89.3865C243.944 97.5008 234.124 104.409 222.752 112.407Z"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M291.471 125.333C292.621 124.466 292.959 122.885 292.262 121.624C291.566 120.362 290.048 119.806 288.701 120.317C285.93 121.37 220.848 146.457 220.848 176.769C220.848 197.663 229.774 208.702 236.291 216.764C238.847 219.924 241.054 222.655 241.781 224.985C243.829 231.703 238.978 243.844 236.939 247.955C236.351 249.138 236.639 250.569 237.639 251.433C238.18 251.899 238.854 252.135 239.53 252.135C240.105 252.135 240.683 251.964 241.182 251.617C242.301 250.838 268.531 232.293 263.826 209.95C262.074 201.458 257.9 195.253 254.217 189.777C248.513 181.295 244.392 175.166 250.643 163.848C257.969 150.65 291.136 125.584 291.471 125.333Z"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M122.06 252.618C120.945 255.957 121.471 259.273 123.582 262.204C130.638 271.998 155.628 277.393 193.953 277.393C193.955 277.393 193.956 277.393 193.957 277.393C199.151 277.393 204.633 277.291 210.249 277.089C271.523 274.895 294.251 255.806 295.188 254.995C296.21 254.111 296.483 252.637 295.848 251.445C295.213 250.254 293.842 249.656 292.533 250.016C270.954 255.908 230.657 258 202.706 258C171.43 258 155.503 255.747 151.603 254.084C153.605 251.337 165.946 246.43 181.238 243.422C182.7 243.135 183.704 241.786 183.56 240.303C183.415 238.821 182.17 237.69 180.68 237.69C171.715 237.691 126.759 238.411 122.06 252.618Z"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M327.098 232.959C314.46 232.959 302.475 239.292 301.97 239.561C300.802 240.188 300.209 241.528 300.53 242.815C300.851 244.101 302.008 245.005 303.334 245.006C303.602 245.007 330.293 245.224 332.71 260.474C334.851 273.63 307.456 294.946 296.719 302.05C295.56 302.818 295.11 304.301 295.648 305.583C296.105 306.674 297.169 307.357 298.314 307.357C298.515 307.357 298.717 307.336 298.918 307.292C301.467 306.748 361.249 293.575 354.928 258.767C351.072 237.435 337.665 232.959 327.098 232.959Z"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M286.101 297.791C286.309 296.676 285.845 295.541 284.917 294.891L270.583 284.851C269.883 284.361 269 284.207 268.18 284.425C268.031 284.464 253.04 288.404 231.277 290.82C222.64 291.789 212.965 292.301 203.297 292.301C181.54 292.301 167.314 289.744 165.242 287.869C164.968 287.342 165.054 287.103 165.103 286.97C165.479 285.922 167.496 284.678 168.797 284.186C170.234 283.655 171.008 282.095 170.561 280.63C170.116 279.164 168.605 278.301 167.115 278.66C152.735 282.13 145.704 286.983 146.216 293.082C147.124 303.895 172.173 309.446 193.35 310.915C196.395 311.123 199.689 311.229 203.137 311.229C203.139 311.229 203.14 311.229 203.142 311.229C238.355 311.229 283.498 300.181 283.949 300.069C285.051 299.797 285.891 298.907 286.101 297.791Z"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M178.032 321.002C179.118 320.295 179.599 318.954 179.214 317.718C178.829 316.482 177.673 315.67 176.375 315.687C174.448 315.737 157.519 316.501 156.334 327.28C155.975 330.501 156.897 333.443 159.077 336.025C165.155 343.229 181.562 347.51 209.228 349.115C212.501 349.311 215.825 349.409 219.111 349.409C254.283 349.409 277.971 338.396 278.963 337.928C279.925 337.473 280.559 336.528 280.616 335.466C280.673 334.405 280.142 333.397 279.235 332.842L261.12 321.784C260.491 321.4 259.739 321.273 259.022 321.42C258.907 321.444 247.405 323.83 230.047 326.187C226.762 326.633 222.649 326.86 217.823 326.86C200.483 326.86 181.196 324.027 177.497 322.172C177.444 321.824 177.512 321.384 178.032 321.002Z"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M202.719 382.659C283.284 382.591 326.524 368.264 334.854 359.248C337.803 356.057 338.121 353.037 337.87 351.065C337.251 346.211 332.831 343.24 332.328 342.917C331.119 342.139 329.496 342.343 328.553 343.431C327.612 344.52 327.59 346.109 328.535 347.196C329.043 347.85 329.337 348.944 327.851 350.431C324.521 353.541 290.934 362.981 235.012 365.817C227.351 366.216 219.317 366.418 211.132 366.419C161.061 366.419 124.418 359.561 119.608 355.564C121.463 352.901 134.423 348.644 148.208 346.238C149.761 345.967 150.811 344.503 150.57 342.945C150.329 341.387 148.893 340.314 147.323 340.519C146.935 340.571 145.616 340.652 144.087 340.745C121.344 342.134 95.0611 345.23 93.6896 356.947C93.273 360.519 94.3343 363.759 96.8446 366.581C102.987 373.482 120.643 382.658 202.715 382.658C202.718 382.659 202.718 382.659 202.719 382.659Z"
+              class="fill-current text-white dark:text-black"
+            />
+            <path
+              d="M350.679 361.788C349.54 361.262 348.195 361.528 347.344 362.444C347.225 362.572 335.113 375.238 298.694 382.675C284.751 385.469 258.579 386.886 220.906 386.886C183.162 386.886 147.247 385.401 146.888 385.386C145.388 385.313 144.105 386.403 143.901 387.88C143.696 389.357 144.648 390.747 146.097 391.092C146.47 391.181 184.109 399.999 235.573 399.999C260.256 399.999 284.275 397.993 306.965 394.037C349.27 386.621 352.232 365.643 352.337 364.755C352.484 363.512 351.815 362.315 350.679 361.788Z"
               class="fill-current text-white dark:text-black"
             />
           </svg>
         </div>
         <p class="text-xl">
-          Das UI-Entwicklungs-Kit Flutter habe ich bei einem Modul in der Uni
-          benutzt. Hierbei wurde eine App programmiert, welche auf iOS und
-          Android lief.
+          Sowohl in der Schule, in der Ausbildung als auch während meines
+          Studiums habe ich Java gelernt und angewendet. Java ist meine
+          allererste Programmiersprache, die ich gelernt habe und circa die
+          Hälfte meines Studiums begleitet hat. Hiermit wurde ich auch mit der
+          objektorientierten Programmierung vertraut. Außerdem habe ich mit
+          JavaFX meine erste Desktop-Anwendung entwickelt.
+        </p>
+      </div>
+      <div class="pb-8 lg:pb-0">
+        <div class="flex items-center pb-4">
+          <h3 class="text-3xl md:text-5xl pb-1">Spring</h3>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 448"
+            class="w-10 ml-4"
+          >
+            <path
+              d="M380.75-175.45H-3.35a32.14,32.14,0,0,0-31.9,32.3v383.4a32.14,32.14,0,0,0,31.9,32.3h384.1a32.22,32.22,0,0,0,32-32.3v-383.4A32.22,32.22,0,0,0,380.75-175.45Z"
+              transform="translate(35.25 175.45)"
+              class="fill-current text-black dark:text-white"
+            />
+            <path
+              d="M322.12-94.47A137.39,137.39,0,0,1,304.74-64c-62.18-64.53-164.82-66.2-229-4s-66.2,164.83-4,229a59.9,59.9,0,0,0,6.68,6.35l6,5.35c68.2,57.5,170.51,48.81,228-19.39a161.59,161.59,0,0,0,37.78-92.94C354.89,19.87,342.52-32.28,322.12-94.47ZM101.8,169c-4.68,6-13.37,6.69-19.39,2s-6.68-13.38-2-19.39,13.37-6.69,19.39-2A14.08,14.08,0,0,1,101.8,169ZM321.12,120.5c-39.78,53.16-125.37,35.11-179.87,37.78,0,0-9.69.67-19.39,2,0,0,3.68-1.67,8.36-3.35,38.45-13.37,56.5-16,79.91-28.08,43.79-22.4,87.59-71.54,96.28-122.36-16.72,48.81-67.53,90.93-113.67,108-31.76,11.7-88.93,23.06-88.93,23.06l-2.34-1.33C62.69,117.16,61.35,32.91,132.23,5.83c31.09-12,60.51-5.35,94.28-13.37,35.77-8.36,77.23-35.11,93.94-70.21C339.17-21.25,361.91,66.34,321.12,120.5Z"
+              transform="translate(35.25 175.45)"
+              class="fill-current text-white dark:text-black"
+            />
+          </svg>
+        </div>
+        <p class="text-xl">
+          Das Java-Framework Spring, habe ich in zwei Uni Modulen kennenlernen
+          können. Dabei wurde Spring als Backend verwendet und das Frontend
+          wurde mit Vue.js umgesetzt. Für die Datenpersistenz wurde eine
+          einfache relationale Datenbank namens H2 verwendet.
         </p>
       </div>
       <div class="pb-8 lg:pb-0">
@@ -239,7 +342,40 @@
         <p class="text-xl">
           In der Zeit meines Praktikums bei 3st, durfte ich für einen Kunden mit
           React Native eine iOS und Android App erstellen. Diese bestand aus
-          einigen nativen sowie mehreren WebView Screens.
+          einigen nativen sowie mehreren WebView Screens. Des Weiteren sollte es
+          möglich sein, einige Texte und Bilder über eine API-Schnittstelle
+          dynamisch auszutauschen.
+        </p>
+      </div>
+      <div class="pb-8 lg:pb-0">
+        <div class="flex items-center pb-4">
+          <h3 class="text-3xl md:text-5xl pb-1">Flutter</h3>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 448"
+            class="w-10 ml-4"
+          >
+            <path
+              d="M400,32H15.9A32.14,32.14,0,0,0-16,64.3V447.7A32.14,32.14,0,0,0,15.9,480H400a32.22,32.22,0,0,0,32-32.3V64.3A32.22,32.22,0,0,0,400,32Z"
+              transform="translate(16 -32)"
+              class="fill-current text-black dark:text-white"
+            />
+            <path
+              d="M349,82.26,120.74,311.05,67,257.28l174.62-175H349M348.34,244H241l-93.53,93.74,91.82,92H345.78L254.67,337.9Z"
+              transform="translate(16 -32)"
+              class="fill-current text-white dark:text-black"
+            />
+          </svg>
+        </div>
+        <p class="text-xl">
+          Das plattformübergreifende Entwicklungs-Kit Flutter habe ich bei einem
+          Modul in der Uni benutzt. Hierbei wurde eine App programmiert, welche
+          auf iOS und Android lief. Um die Daten zu speichern, wurde Firebase
+          als Datenpersistenz verwendet.
         </p>
       </div>
     </div>
@@ -321,11 +457,12 @@
       </div>
       <p class="text-xl">
         Als Medieninformatiker habe ich von Anfang an gelernt, was gutes Design
-        ist und welche Schritte es benötigt, um gutes Design zu erstellen.
-        Mindestens einmal im Semester hatte ich es mit einer Gestaltungssoftware
-        zu tun, um entweder Wireframes, Screendesigns oder ganze Booklet zu
-        gestalten. Hierfür hatte ich anfangs nur die Adobe-Suite benutzt und für
-        elektronische Medien ist dann Sketch und Figma hinzugekommen.
+        ist und welche Schritte es benötigt, um ansprechendes Design zu
+        kreieren. Mindestens einmal im Semester hatte ich es mit einer
+        Gestaltungssoftware zu tun, um entweder Videos zu schneiden oder
+        Wireframes, Screendesigns oder ein ganzes Booklet zu gestalten. Hierfür
+        hatte ich anfangs die Adobe-Suite benutzt und für elektronische Medien
+        ist dann Sketch und Figma hinzugekommen.
       </p>
     </div>
   </div>
