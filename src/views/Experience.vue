@@ -14,8 +14,8 @@
           Medieninformatik an der Hochschule RheinMain entschieden, um meine
           bereits erworbenen Fähigkeiten zu vertiefen, meine künstlerische Ader
           zu erwecken und meine programmier Skills besser kennenzulernen. Als
-          Bachelor-Arbeit wurde eine Website-Analyse-Plattform entwickelt, um
-          Website-Betreibern die Möglichkeit zu geben den Erfolg ihrer Websites
+          Bachelor-Arbeit habe ich eine Website-Analyse-Plattform entwickelt, um
+          Website-Betreibern die Möglichkeit zu geben, den Erfolg ihrer Websites
           zu messen. Damit können sie den Fortschritt ihrer Ziele überprüfen und
           ggf. Optimierungen an der Website vornehmen. Dabei wurde darauf
           geachtet, dass die Anforderungen der Datenschutzgesetze erfüllt werden
@@ -33,7 +33,7 @@
             Projekten einzubringen. Deshalb bin ich zur Selbstständigkeit meiner
             Schwester dazugestoßen. Sie ist Designerin und ich Web-Entwickler
             mit einer Leidenschaft für gutes Design. Nun sind wir
-            designzigartig, eine Full Service Agentur, welche unter anderem
+            designzigartig, eine Full-Service-Agentur, welche unter anderem
             Websites erstellt. Wir betreiben das Ganze nebenberuflich und haben
             hierbei schon einige Stammkunden gewonnen und interessante Projekte
             umgesetzt.
@@ -43,14 +43,15 @@
           <h3 class="text-3xl md:text-5xl pb-1">2021 – 2022</h3>
           <h4 class="text-xl md:text-2xl pb-4">3st kommunikation GmbH</h4>
           <p class="text-xl">
-            Meine 6-Monatige berufspraktische Tätigkeit als Web-Developer
+            Meine 6-monatige berufspraktische Tätigkeit als Web-Developer
             absolvierte ich bei 3st kommunikation GmbH. Es ist eine Agentur für
             die Bereiche: Strategie, Design, Film, Redaktion und Programmierung.
             Hierbei werden neue und faszinierende Markenerlebnisse erschaffen.
             Durch die abwechslungsreichen Projekte in einer Agentur konnte ich
-            meinen Techstack erweitern und verbessern. Bei meinen Aufgaben hatte
-            ich es unter anderem mit ReactJS, Ruby, ReactNative und PugJS zu
-            tun. Nach meinem Praktikum wurde ich als Werkstudent eingestellt.
+            meinen Tech Stack erweitern und verbessern. Bei meinen Aufgaben
+            hatte ich es unter anderem mit React.js, Ruby, React Native und
+            PugJS zu tun. Nach meinem Praktikum wurde ich als Werkstudent
+            eingestellt.
           </p>
         </div>
         <div class="pb-8 lg:pb-0">
@@ -80,7 +81,7 @@
             an 3 Tagen in der Woche statt und 2 Tage hatte ich normalen
             Unterricht. Hierbei hatte ich zum ersten Mal richtigen Kontakt zur
             Berufswelt. In der 12. Klasse hatte ich normalen Unterricht mit
-            Schwerpunkt Technische Informatik.
+            Schwerpunkt technische Informatik.
           </p>
         </div>
       </div>

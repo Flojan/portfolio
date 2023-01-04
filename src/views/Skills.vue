@@ -277,9 +277,9 @@
         </div>
         <p class="text-xl">
           Sowohl in der Schule, in der Ausbildung als auch während meines
-          Studiums habe ich Java gelernt und angewendet. Java ist meine
-          allererste Programmiersprache, die ich gelernt habe und circa die
-          Hälfte meines Studiums begleitet hat. Hiermit wurde ich auch mit der
+          Studiums habe ich Java gelernt und angewendet. Java ist die allererste
+          Programmiersprache, die ich gelernt habe und mich circa die Hälfte
+          meines Studiums begleitet hat. Hiermit wurde ich auch mit der
           objektorientierten Programmierung vertraut. Außerdem habe ich mit
           JavaFX meine erste Desktop-Anwendung entwickelt.
         </p>
@@ -457,7 +457,7 @@
       </div>
       <p class="text-xl">
         Als Medieninformatiker habe ich von Anfang an gelernt, was gutes Design
-        ist und welche Schritte es benötigt, um ansprechendes Design zu
+        ist und welche Schritte es benötigt, um ein ansprechendes Design zu
         kreieren. Mindestens einmal im Semester hatte ich es mit einer
         Gestaltungssoftware zu tun, um entweder Videos zu schneiden oder
         Wireframes, Screendesigns oder ein ganzes Booklet zu gestalten. Hierfür

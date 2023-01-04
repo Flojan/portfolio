@@ -166,10 +166,10 @@
           <h3 class="text-3xl md:text-5xl pb-1">designzigartig Website</h3>
           <h4 class="text-xl md:text-2xl pb-4">Joomla / JS / CSS</h4>
           <p class="text-xl">
-            Die designzigartig Website ist unsere Unternehmenswebsite von meiner
+            Die designzigartig Website ist die Unternehmenswebsite von meiner
             Schwester und mir. Hierbei erschaffen wir individuelle und
             einzigartige Erscheinungsbilder für etablierte Firmen oder auch
-            Startups, sowohl digital als auch analog. Der bald stattfindende
+            Startups, sowohl digital als auch print. Der bald stattfindende
             Relaunch wird mit Next.js umgesetzt.
           </p>
           <a
@@ -239,7 +239,7 @@
           <h4 class="text-xl md:text-2xl pb-4">Joomla / CSS</h4>
           <p class="text-xl">
             Für eine selbstständige Grafikdesignerin und Illustratorin erstellte
-            ich eine online Portfolio Seite, bei der im Fokus ihre Projekte
+            ich eine online Portfolio Seite, bei der ihre Projekte im Fokus
             stehen. Minimalistisch wirken auf der Startseite zuerst die
             einzelnen Projekt-Bilder und nach einem darüber hovern bzw. klicken
             gibt es weitere Informationen.
@@ -274,11 +274,11 @@
           <h3 class="text-3xl md:text-5xl pb-1">Clicker-Game als WebApp</h3>
           <h4 class="text-xl md:text-2xl pb-4">React.js / CSS</h4>
           <p class="text-xl">
-            Mit zwei weiteren Kommilitonen erstellten wir ein Endlos-Spiel, bei
-            dem es hauptsächlich ums Klicken geht. Fürs Klicken gab es Punkte
-            und dadurch wurden Extras freigeschaltet. Um die Daten persistent zu
-            halten, wurde uns verschiedene API-Schnittstellen zur Verfügung
-            gestellt.
+            In Zusammenarbeit mit zwei weiteren Kommilitonen erstellte ich ein
+            Endlos-Spiel, bei dem es hauptsächlich ums Klicken geht. Fürs
+            Klicken gab es Punkte und dadurch wurden Extras freigeschaltet. Um
+            die Daten persistent zu halten, wurde uns verschiedene
+            API-Schnittstellen zur Verfügung gestellt.
           </p>
           <a
             class="button underline-effect py-5 text-xl z-0"
@@ -345,10 +345,11 @@
           <h3 class="text-3xl md:text-5xl pb-1">Webshop</h3>
           <h4 class="text-xl md:text-2xl pb-4">Vue.js / Spring / Scrum</h4>
           <p class="text-xl">
-            Mit 7 weiteren Kommilitonen entwickelten wir einen Supermarkt
-            Webshop, bei dem im Vordergrund stand, das Projekt mithilfe von
-            Scrum durchzuführen. Hierbei nutzen wir die Open Source Software
-            Taiga, welche die Teamkommunikation und Planung vereinfachte.
+            In Zusammenarbeit mit 7 weiteren Kommilitonen entwickelte ich einen
+            Supermarkt Webshop, bei dem im Vordergrund stand, das Projekt
+            mithilfe von Scrum durchzuführen. Hierbei nutzen wir die
+            Open-Source-Software Taiga, welche die Team-Kommunikation und
+            Planung vereinfachte.
           </p>
           <a class="button underline-effect py-5 text-xl z-0"
             >no Link
