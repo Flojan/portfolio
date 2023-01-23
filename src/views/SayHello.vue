@@ -1,16 +1,7 @@
 <template>
   <div id="sayhello" class="flex flex-col min-h-screen justify-center w-full">
     <div
-      class="
-        text-black
-        dark:text-white
-        text-3xl
-        sm:text-5xl
-        md:text-6xl
-        lg:text-7xl
-        xl:text-8xl
-        content-evenly
-      "
+      class="text-black dark:text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl content-evenly"
     >
       <h2>
         <a href="mailto:florian@designzigartig.de">
@@ -21,6 +12,59 @@
       </h2>
     </div>
     <div class="flex flex-row content-around pt-5 space-x-4">
+      <div>
+        <a
+          href="https://www.get-in-it.de/profil/UkWo6wDRtEQN3aMvLDNvH26Vxmu1fIEj"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="xing-square"
+            class="svg-inline--fa fa-xing-square fa-w-14 w-16"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <g id="Layer_1" focusable="false">
+              <path
+                d="M400,32H48C21.5,32,0,53.5,0,80v352c0,26.5,21.5,48,48,48h352c26.5,0,48-21.5,48-48V80C448,53.5,426.5,32,400,32z"
+                fill="currentColor"
+              />
+            </g>
+            <g id="Layer_2">
+              <path
+                d="M42.9,367c-0.7,42.2,30.4,47.3,39.4,47.4H85h0.7l2.8-14.6c-9,0-30-2.4-29.5-34.9c0-5.6,1-12.1,2.6-19.6
+    l8.6-39.9c1-3.7,1-7.1,1-10.5c0.7-13.2-4.2-22.7-9.7-28.8c-2.9-3.5-6.6-6.5-10.7-8.9v-0.8c6-1.7,11.7-4.3,16.6-8.4
+    c8.6-7,18.3-18.9,23.2-38.8l7.6-35c10.4-51.5,40.2-53.3,49.2-53.1l2.8-14.7c-16.6-0.3-54.1,1.7-68.7,67.9l-6.2,30.5
+    c-4.9,19.9-14.8,31.4-23.9,37.3c-5.3,3.3-11,5.8-17.3,6.9l-3.3,15c4.9,1.2,8.9,3.1,12.2,5.8c6,4.6,11.8,12.7,11.6,27.4
+    c0,3.4-0.7,7.6-1.4,12.1l-7.4,35.3c-1.6,8.7-2.8,16.2-3,22.6V367z"
+                class="fill-white dark:fill-black"
+              />
+              <path
+                class="fill-white dark:fill-black"
+                d="M405.4,145.3c0.7-42.5-29.8-47.6-38.8-47.7h-2.1c-0.7,0-0.7,0-0.7,0.3l-3.5,14.7c9,0.1,29.8,2.4,29.1,35
+                c0,5.7-0.7,12.1-2.8,19.7l-8.3,40c-0.7,3.8-0.7,7.2-1.4,10.6c0,13.3,4.9,22.9,10.4,29.1c2.8,3.5,6.2,6.5,10.4,8.9v0.8
+                c-6.2,1.8-11.8,4.4-16.6,8.5c-8.3,7.1-18,19-22.2,39l-7.6,35.2c-10.4,51.8-39.5,53.5-48.5,53.4l-2.8,14.8c16,0,53.4-1.7,67.3-68.2
+                l6.2-30.7c4.2-20,14.6-31.6,23.6-37.5c4.9-3.3,10.4-5.9,16.6-6.9l3.5-15.1c-4.9-1.2-9-3.2-11.8-5.9c-6.2-4.6-11.8-12.7-11.8-27.5
+                c0-3.4,0.7-7.6,1.4-12.1l7.6-35.6C404,159.3,405.4,151.8,405.4,145.3L405.4,145.3z"
+              />
+              <path
+                class="fill-white dark:fill-black"
+                d="M173.8,311.9l7.6-35.6c10.4-46,13.2-56.4,24.3-99.9l-1.4-1.5l-44.4,0.8l-2.1,1.5c-6.9,36.4-9.7,48.5-18,87.2
+                l-13.2,54.4l-8.3,34.4l1.4,1.5l44.4-0.8l1.4-1.2C165.5,352.7,173.8,311.9,173.8,311.9z"
+              />
+              <path
+                class="fill-white dark:fill-black"
+                d="M279.2,301.6l11.1-51.4l10.4-43.3H316l25,1l2.1-1.8l7.6-29.8l-1.4-1.5l-43,0.8h-85.3l-2.1,1.2l-8.3,29.6l1.4,2
+                l29.1-1h16l-13.2,57.9L231.4,317l-9,36.5l1.4,1.5l43-0.7l1.4-1.5l11.1-50.9L279.2,301.6z"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
       <div>
         <a
           href="https://www.linkedin.com/in/florian-schmidt-249379174"
@@ -44,6 +88,7 @@
           </svg>
         </a>
       </div>
+
       <div>
         <a
           href="https://www.xing.com/profile/Florian_Schmidt374/cv"
@@ -90,7 +135,7 @@
           </svg>
         </a>
       </div>
-      <div id="discord">
+      <!-- <div id="discord">
         <a
           href="https://discord.com/users/310016207627616256"
           target="_blank"
@@ -112,7 +157,7 @@
             ></path>
           </svg>
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
