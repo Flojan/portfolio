@@ -89,7 +89,7 @@
         </a>
       </div>
 
-      <div>
+      <!-- <div>
         <a
           href="https://www.xing.com/profile/Florian_Schmidt374/cv"
           target="_blank"
@@ -111,7 +111,7 @@
             ></path>
           </svg>
         </a>
-      </div>
+      </div> -->
       <div>
         <a
           href="https://github.com/flojan/"

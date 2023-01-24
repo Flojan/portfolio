@@ -6,7 +6,7 @@
       </h2>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-      <div class="pb-8 lg:pb-0">
+      <div class="pb-8">
         <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Vue.js</h3>
           <svg
@@ -39,7 +39,7 @@
           erzielen.
         </p>
       </div>
-      <div class="pb-8 lg:pb-0">
+      <div class="pb-8">
         <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">React.js, Next.js</h3>
           <svg
@@ -138,7 +138,70 @@
           bereits zuvor bei einem Kundenprojekt zum Einsatz.
         </p>
       </div>
-      <div class="pb-8 lg:pb-0">
+      <div class="pb-8">
+        <div class="flex items-center pb-4">
+          <h3 class="text-3xl md:text-5xl pb-1">React Native</h3>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 448"
+            class="w-10 ml-4"
+          >
+            <path
+              class="fill-current text-black dark:text-white"
+              d="M208-208H-176.1A32.14,32.14,0,0,0-208-175.7V207.7A32.14,32.14,0,0,0-176.1,240H208a32.22,32.22,0,0,0,32-32.3V-175.7A32.22,32.22,0,0,0,208-208Z"
+              transform="translate(208 208)"
+            />
+            <path
+              class="fill-current text-white dark:text-black"
+              d="M16-19.18A35.19,35.19,0,1,0,51.19,16,35.23,35.23,0,0,0,16-19.18ZM-82.52,86-90.29,84c-57.81-14.65-91-39.44-91-68.08s33.2-53.43,91-68.08l7.77-1.93,2.18,7.71A386.08,386.08,0,0,0-57.92,12.48L-56.26,16l-1.66,3.52A382.62,382.62,0,0,0-80.34,78.3ZM-93.88-34.15c-43.93,12.33-70.9,31.27-70.9,50.1s27,37.69,70.9,50.1A409.79,409.79,0,0,1-74.42,16,406.22,406.22,0,0,1-93.88-34.15ZM114.52,86l-2.18-7.71A383.41,383.41,0,0,0,89.92,19.47L88.26,16l1.66-3.53a382.62,382.62,0,0,0,22.42-58.83l2.18-7.65,7.77,1.93c57.81,14.65,91,39.43,91,68.08s-33.2,53.43-91,68.08Zm-8.1-70a399.75,399.75,0,0,1,19.46,50.1c44-12.4,70.9-31.27,70.9-50.1s-27-37.7-70.9-50.1A416.19,416.19,0,0,1,106.42,16ZM-94-34.22l-2.18-7.7c-16.25-57.29-11.31-98.39,13.55-112.72,24.41-14.07,63.52,2.57,104.56,44.7l5.58,5.72L21.91-98.5A387.85,387.85,0,0,0-17.91-49.69l-2.24,3.14-3.86.32a390.33,390.33,0,0,0-62.24,10Zm31.21-109a22.69,22.69,0,0,0-11.62,2.82c-16.32,9.44-19.2,42.2-8,86.38a410.65,410.65,0,0,1,53.18-8.29A403.73,403.73,0,0,1,4.5-104.09c-25.63-25-49.91-39.12-67.31-39.12ZM94.87,191.53h0c-23.44,0-53.57-17.6-84.78-49.71L4.51,136.1l5.58-5.72A387.85,387.85,0,0,0,49.91,81.57l2.18-3.14L56,78a377.88,377.88,0,0,0,62.3-10L126,66.1l2.18,7.7c16.25,57.29,11.31,98.33-13.55,112.64a38.1,38.1,0,0,1-19.78,5.07ZM27.49,136c25.63,25,49.91,39.12,67.3,39.12h.07a23.13,23.13,0,0,0,11.56-2.83c16.32-9.44,19.27-42.19,8-86.37A402.62,402.62,0,0,1,61.2,94.11,404.45,404.45,0,0,1,27.49,136ZM126-34.22l-7.77-2a394.45,394.45,0,0,0-62.3-10l-3.86-.32-2.18-3.14A387.85,387.85,0,0,0,10.09-98.5l-5.58-5.72,5.58-5.72c41-42.13,80.15-58.77,104.56-44.7,24.86,14.32,29.8,55.43,13.55,112.72ZM61.22-62.28A409.11,409.11,0,0,1,114.4-54c11.31-44.18,8.35-76.95-8-86.38s-46.82,5-78.93,36.29A419.92,419.92,0,0,1,61.22-62.27Zm-124,253.81a38.53,38.53,0,0,1-19.84-5.07c-24.86-14.32-29.8-55.37-13.55-112.64L-94,66.11-86.25,68A387.28,387.28,0,0,0-24,78.06l3.86.38L-18,81.58a388.65,388.65,0,0,0,39.81,48.81l5.59,5.72-5.59,5.72c-31.14,32.11-61.27,49.71-84.65,49.71ZM-82.39,85.89c-11.3,44.18-8.35,76.94,8,86.37,16.25,9.25,46.76-5,78.93-36.29A404.33,404.33,0,0,1-29.2,94.1a399.48,399.48,0,0,1-53.19-8.23ZM16,96.22c-13.55,0-27.42-.58-41.36-1.74l-3.86-.32L-31.46,91C-39.29,79.65-46.75,68-53.62,56.08s-13.29-24.14-19.2-36.61L-74.48,16l1.66-3.53C-66.91,0-60.55-12.24-53.62-24.19c6.81-11.75,14.25-23.5,22.16-34.87l2.24-3.21,3.86-.32a492.44,492.44,0,0,1,82.72,0l3.86.32,2.24,3.21a493.42,493.42,0,0,1,41.36,71.48L106.48,16l-1.66,3.52A488.57,488.57,0,0,1,63.46,91l-2.24,3.2-3.86.32C43.49,95.64,29.55,96.22,16,96.22ZM-20.09,78.37a468.32,468.32,0,0,0,72.24,0,480.2,480.2,0,0,0,36.1-62.44A463.15,463.15,0,0,0,52.09-46.5a467.54,467.54,0,0,0-72.18,0A460.25,460.25,0,0,0-56.25,15.93,475.75,475.75,0,0,0-20.09,78.37Z"
+              transform="translate(208 208)"
+            />
+          </svg>
+        </div>
+        <p class="text-xl">
+          In der Zeit meines Praktikums bei 3st, durfte ich für einen Kunden mit
+          React Native eine iOS und Android App erstellen. Diese bestand aus
+          einigen nativen sowie mehreren WebView Screens. Des Weiteren sollte es
+          möglich sein, einige Texte und Bilder über eine API-Schnittstelle
+          dynamisch auszutauschen.
+        </p>
+      </div>
+      <div class="pb-8">
+        <div class="flex items-center pb-4">
+          <h3 class="text-3xl md:text-5xl pb-1">Flutter</h3>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 448"
+            class="w-10 ml-4"
+          >
+            <path
+              d="M400,32H15.9A32.14,32.14,0,0,0-16,64.3V447.7A32.14,32.14,0,0,0,15.9,480H400a32.22,32.22,0,0,0,32-32.3V64.3A32.22,32.22,0,0,0,400,32Z"
+              transform="translate(16 -32)"
+              class="fill-current text-black dark:text-white"
+            />
+            <path
+              d="M349,82.26,120.74,311.05,67,257.28l174.62-175H349M348.34,244H241l-93.53,93.74,91.82,92H345.78L254.67,337.9Z"
+              transform="translate(16 -32)"
+              class="fill-current text-white dark:text-black"
+            />
+          </svg>
+        </div>
+        <p class="text-xl">
+          Das plattformübergreifende Entwicklungs-Kit Flutter habe ich bei einem
+          Modul in der Uni benutzt. Hierbei wurde eine App programmiert, welche
+          auf iOS und Android lief. Um die Daten zu speichern, wurde Firebase
+          als Datenpersistenz verwendet.
+        </p>
+      </div>
+      <div class="pb-8">
         <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Joomla, Wordpress</h3>
           <svg
@@ -190,7 +253,7 @@
           benötigten, habe ich stattdessen Next.js oder Vue.js verwendet.
         </p>
       </div>
-      <div class="pb-8 lg:pb-0">
+      <div class="pb-8">
         <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Python</h3>
           <svg
@@ -225,7 +288,7 @@
           kleine Skripte oder Bots zu schreiben.
         </p>
       </div>
-      <div class="pb-8 lg:pb-0">
+      <div class="pb-8">
         <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Java</h3>
           <svg
@@ -284,7 +347,7 @@
           JavaFX meine erste Desktop-Anwendung entwickelt.
         </p>
       </div>
-      <div class="pb-8 lg:pb-0">
+      <div class="pb-8">
         <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">Spring</h3>
           <svg
@@ -315,71 +378,8 @@
           einfache relationale Datenbank namens H2 verwendet.
         </p>
       </div>
-      <div class="pb-8 lg:pb-0">
-        <div class="flex items-center pb-4">
-          <h3 class="text-3xl md:text-5xl pb-1">React Native</h3>
-          <svg
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fab"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 448"
-            class="w-10 ml-4"
-          >
-            <path
-              class="fill-current text-black dark:text-white"
-              d="M208-208H-176.1A32.14,32.14,0,0,0-208-175.7V207.7A32.14,32.14,0,0,0-176.1,240H208a32.22,32.22,0,0,0,32-32.3V-175.7A32.22,32.22,0,0,0,208-208Z"
-              transform="translate(208 208)"
-            />
-            <path
-              class="fill-current text-white dark:text-black"
-              d="M16-19.18A35.19,35.19,0,1,0,51.19,16,35.23,35.23,0,0,0,16-19.18ZM-82.52,86-90.29,84c-57.81-14.65-91-39.44-91-68.08s33.2-53.43,91-68.08l7.77-1.93,2.18,7.71A386.08,386.08,0,0,0-57.92,12.48L-56.26,16l-1.66,3.52A382.62,382.62,0,0,0-80.34,78.3ZM-93.88-34.15c-43.93,12.33-70.9,31.27-70.9,50.1s27,37.69,70.9,50.1A409.79,409.79,0,0,1-74.42,16,406.22,406.22,0,0,1-93.88-34.15ZM114.52,86l-2.18-7.71A383.41,383.41,0,0,0,89.92,19.47L88.26,16l1.66-3.53a382.62,382.62,0,0,0,22.42-58.83l2.18-7.65,7.77,1.93c57.81,14.65,91,39.43,91,68.08s-33.2,53.43-91,68.08Zm-8.1-70a399.75,399.75,0,0,1,19.46,50.1c44-12.4,70.9-31.27,70.9-50.1s-27-37.7-70.9-50.1A416.19,416.19,0,0,1,106.42,16ZM-94-34.22l-2.18-7.7c-16.25-57.29-11.31-98.39,13.55-112.72,24.41-14.07,63.52,2.57,104.56,44.7l5.58,5.72L21.91-98.5A387.85,387.85,0,0,0-17.91-49.69l-2.24,3.14-3.86.32a390.33,390.33,0,0,0-62.24,10Zm31.21-109a22.69,22.69,0,0,0-11.62,2.82c-16.32,9.44-19.2,42.2-8,86.38a410.65,410.65,0,0,1,53.18-8.29A403.73,403.73,0,0,1,4.5-104.09c-25.63-25-49.91-39.12-67.31-39.12ZM94.87,191.53h0c-23.44,0-53.57-17.6-84.78-49.71L4.51,136.1l5.58-5.72A387.85,387.85,0,0,0,49.91,81.57l2.18-3.14L56,78a377.88,377.88,0,0,0,62.3-10L126,66.1l2.18,7.7c16.25,57.29,11.31,98.33-13.55,112.64a38.1,38.1,0,0,1-19.78,5.07ZM27.49,136c25.63,25,49.91,39.12,67.3,39.12h.07a23.13,23.13,0,0,0,11.56-2.83c16.32-9.44,19.27-42.19,8-86.37A402.62,402.62,0,0,1,61.2,94.11,404.45,404.45,0,0,1,27.49,136ZM126-34.22l-7.77-2a394.45,394.45,0,0,0-62.3-10l-3.86-.32-2.18-3.14A387.85,387.85,0,0,0,10.09-98.5l-5.58-5.72,5.58-5.72c41-42.13,80.15-58.77,104.56-44.7,24.86,14.32,29.8,55.43,13.55,112.72ZM61.22-62.28A409.11,409.11,0,0,1,114.4-54c11.31-44.18,8.35-76.95-8-86.38s-46.82,5-78.93,36.29A419.92,419.92,0,0,1,61.22-62.27Zm-124,253.81a38.53,38.53,0,0,1-19.84-5.07c-24.86-14.32-29.8-55.37-13.55-112.64L-94,66.11-86.25,68A387.28,387.28,0,0,0-24,78.06l3.86.38L-18,81.58a388.65,388.65,0,0,0,39.81,48.81l5.59,5.72-5.59,5.72c-31.14,32.11-61.27,49.71-84.65,49.71ZM-82.39,85.89c-11.3,44.18-8.35,76.94,8,86.37,16.25,9.25,46.76-5,78.93-36.29A404.33,404.33,0,0,1-29.2,94.1a399.48,399.48,0,0,1-53.19-8.23ZM16,96.22c-13.55,0-27.42-.58-41.36-1.74l-3.86-.32L-31.46,91C-39.29,79.65-46.75,68-53.62,56.08s-13.29-24.14-19.2-36.61L-74.48,16l1.66-3.53C-66.91,0-60.55-12.24-53.62-24.19c6.81-11.75,14.25-23.5,22.16-34.87l2.24-3.21,3.86-.32a492.44,492.44,0,0,1,82.72,0l3.86.32,2.24,3.21a493.42,493.42,0,0,1,41.36,71.48L106.48,16l-1.66,3.52A488.57,488.57,0,0,1,63.46,91l-2.24,3.2-3.86.32C43.49,95.64,29.55,96.22,16,96.22ZM-20.09,78.37a468.32,468.32,0,0,0,72.24,0,480.2,480.2,0,0,0,36.1-62.44A463.15,463.15,0,0,0,52.09-46.5a467.54,467.54,0,0,0-72.18,0A460.25,460.25,0,0,0-56.25,15.93,475.75,475.75,0,0,0-20.09,78.37Z"
-              transform="translate(208 208)"
-            />
-          </svg>
-        </div>
-        <p class="text-xl">
-          In der Zeit meines Praktikums bei 3st, durfte ich für einen Kunden mit
-          React Native eine iOS und Android App erstellen. Diese bestand aus
-          einigen nativen sowie mehreren WebView Screens. Des Weiteren sollte es
-          möglich sein, einige Texte und Bilder über eine API-Schnittstelle
-          dynamisch auszutauschen.
-        </p>
-      </div>
-      <div class="pb-8 lg:pb-0">
-        <div class="flex items-center pb-4">
-          <h3 class="text-3xl md:text-5xl pb-1">Flutter</h3>
-          <svg
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fab"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 448"
-            class="w-10 ml-4"
-          >
-            <path
-              d="M400,32H15.9A32.14,32.14,0,0,0-16,64.3V447.7A32.14,32.14,0,0,0,15.9,480H400a32.22,32.22,0,0,0,32-32.3V64.3A32.22,32.22,0,0,0,400,32Z"
-              transform="translate(16 -32)"
-              class="fill-current text-black dark:text-white"
-            />
-            <path
-              d="M349,82.26,120.74,311.05,67,257.28l174.62-175H349M348.34,244H241l-93.53,93.74,91.82,92H345.78L254.67,337.9Z"
-              transform="translate(16 -32)"
-              class="fill-current text-white dark:text-black"
-            />
-          </svg>
-        </div>
-        <p class="text-xl">
-          Das plattformübergreifende Entwicklungs-Kit Flutter habe ich bei einem
-          Modul in der Uni benutzt. Hierbei wurde eine App programmiert, welche
-          auf iOS und Android lief. Um die Daten zu speichern, wurde Firebase
-          als Datenpersistenz verwendet.
-        </p>
-      </div>
     </div>
-    <div class="mt-6 pb-8 lg:pb-0 grid grid-cols-1">
+    <div class="mt-6 pb-8 grid grid-cols-1">
       <div class="flex items-center pb-4">
         <h3 class="text-3xl md:text-5xl pb-1">Sketch, Figma, Adobe</h3>
         <svg
