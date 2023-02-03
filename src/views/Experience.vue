@@ -20,7 +20,11 @@
           ggf. Optimierungen an der Website vornehmen. Dabei wurde darauf
           geachtet, dass die Anforderungen der Datenschutzgesetze erfüllt werden
           und das Tracking des Website-Nutzers ohne deren Einwilligung
-          ermöglicht.
+          ermöglicht. Dabei wurden die Technologien Next.js, Prisma, MySQL und
+          Tailwind CSS eingesetzt. Allgemein im Studium lernte ich in
+          verschiedenen kleineren Projekten den Umgang mit Java, Python und SQL.
+          In größeren Projekten wurde mit Spring, Vue.js und React.js
+          gearbeitet.
         </p>
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -62,10 +66,14 @@
           <p class="text-xl">
             Meine Ausbildung zum Fachinformatiker für Systemintegration
             absolvierte ich an der JGU Mainz im Institut für Kernphysik in der
-            EDV-Abteilung. Diese Abteilung ist für den Betrieb des
+            IT-Abteilung. Diese Abteilung ist für den Betrieb des
             Institutsrechenzentrums, Institutsnetzes und einer größeren Anzahl
             zentraler und dezentraler Drucker verantwortlich. Des Weiteren
             gewährleistet sie die Betreuung der ca. 300 Benutzer mit ihren PCs.
+            Hierbei war ich hauptsächlich im Bereich des 1st und 2nd Level
+            Supports tätig. Außerdem war ich für die Systemherstellung und
+            -betreuung, einschließlich Server, Clients, Peripheriegeräten und
+            Software zuständig.
           </p>
         </div>
         <div class="pb-8 lg:pb-0">

@@ -5,14 +5,14 @@
       <h3 class="text-3xl md:text-5xl pb-5">Hallo, mein Name ist Florian</h3>
       <p class="text-xl">
         und das ist meine Portfolio-Website. Ich komme aus Oppenheim, einem
-        kleinen Städtchen am Rhein. Ich bin gelernter Fachinformatiker &
-        studiere aktuell Medieninformatik. Sobald ich das Kolloquium meiner
-        Bachelor-Arbeit gehalten habe, bin ich bereit für neue
-        Herausforderungen. In den letzten Jahren habe ich ein großes Interesse
-        an der Web-Entwicklung gefunden, weswegen ich mich zusammen mit meiner
-        Schwester in diesem Bereich selbstständig gemacht habe. Um einen
-        Ausgleich für das ständige Arbeiten am Computer zu finden, spiele ich
-        von klein auf gerne Fußball.
+        kleinen Städtchen am Rhein. Ich bin gelernter Fachinformatiker & aktuell
+        am Ende meines Studiums in der Fachrichtung Medieninformatik. Sobald ich
+        das Kolloquium meiner Bachelor-Arbeit gehalten habe, bin ich bereit für
+        neue Herausforderungen. In den letzten Jahren habe ich ein großes
+        Interesse an der Web-Entwicklung gefunden, weswegen ich mich zusammen
+        mit meiner Schwester in diesem Bereich selbstständig gemacht habe. Um
+        einen Ausgleich für das ständige Arbeiten am Computer zu finden, spiele
+        ich von klein auf gerne Fußball.
       </p>
       <router-link
         @click="scrollTo('#experience')"
