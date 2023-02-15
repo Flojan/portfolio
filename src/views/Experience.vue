@@ -7,7 +7,7 @@
     </div>
     <div class="grid grid-cols-1 gap-6">
       <div class="pb-8 lg:pb-0">
-        <h3 class="text-3xl md:text-5xl pb-1">2016 – Heute</h3>
+        <h3 class="text-3xl md:text-5xl pb-1">2016 – 2023</h3>
         <h4 class="text-xl md:text-2xl pb-4">Medieninformatik Studium</h4>
         <p class="text-xl">
           Nach meiner Ausbildung habe ich mich für den Studiengang
