@@ -54,6 +54,45 @@
         class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
+          <h3 class="text-3xl md:text-5xl pb-1">Kolloquium Präsentation</h3>
+          <h4 class="text-xl md:text-2xl pb-4">
+            Slidev (based on Vue.js) / Markdown
+          </h4>
+          <p class="text-xl">
+            Für das Kolloquium meiner Bachelor-Arbeit wurde für die
+            Präsentation, das Entwickler freundliche Präsentationstool Slidev
+            genutzt. Es handelt sich hierbei um ein Tool auf Basis von Vue.js,
+            womit man interaktive und ansprechende Präsentationen mit der
+            Markdown- oder HTML-Syntax entwickelt. Zusätzlich ist es möglich,
+            Komponenten mit Vue zu erstellen.
+          </p>
+          <a
+            class="button underline-effect py-5 text-xl z-0"
+            href="https://github.com/Flojan/wapplytics-keynote"
+            target="_blank"
+            rel="noopener noreferrer"
+            >zum Projekt
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 inline-block mb-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div
+        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+      >
+        <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Pizza Caterer Website</h3>
           <h4 class="text-xl md:text-2xl pb-4">Joomla / JS / SCSS</h4>
           <p class="text-xl">
