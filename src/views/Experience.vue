@@ -7,7 +7,7 @@
     </div>
     <div class="grid grid-cols-1 gap-6">
       <div class="pb-8 lg:pb-0">
-        <h3 class="text-3xl md:text-5xl pb-1">2016 – Heute</h3>
+        <h3 class="text-3xl md:text-5xl pb-1">2016 – Feb. 2023</h3>
         <h4 class="text-xl md:text-2xl pb-4">Medieninformatik Studium</h4>
         <p class="text-xl">
           Nach meiner Ausbildung habe ich mich für den Studiengang
@@ -20,8 +20,8 @@
           ggf. Optimierungen an der Website vornehmen. Dabei wurde darauf
           geachtet, dass die Anforderungen der Datenschutzgesetze erfüllt werden
           und das Tracking des Website-Nutzers ohne deren Einwilligung
-          ermöglicht. Dabei wurden die Technologien Next.js, Prisma, MySQL und
-          Tailwind CSS eingesetzt. Allgemein im Studium lernte ich in
+          ermöglicht. Hierbei sind die Technologien Next.js, Prisma, MySQL und
+          Tailwind CSS zum Einsatz gekommen. Allgemein im Studium lernte ich in
           verschiedenen kleineren Projekten den Umgang mit Java, Python und SQL.
           In größeren Projekten wurde mit Spring, Vue.js und React.js
           gearbeitet.
