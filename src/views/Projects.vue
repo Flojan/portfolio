@@ -59,12 +59,11 @@
             Slidev (based on Vue.js) / Markdown
           </h4>
           <p class="text-xl">
-            Für das Kolloquium meiner Bachelor-Arbeit wurde für die
-            Präsentation, das Entwickler freundliche Präsentationstool Slidev
-            genutzt. Es handelt sich hierbei um ein Tool auf Basis von Vue.js,
-            womit man interaktive und ansprechende Präsentationen mit der
-            Markdown- oder HTML-Syntax entwickelt. Zusätzlich ist es möglich,
-            Komponenten mit Vue zu erstellen.
+            Für das Kolloquium meiner Bachelor-Arbeit wurde für die Präsentation
+            das entwicklerfreundliche Präsentationstool Slidev genutzt. Es ist
+            ein Tool auf Basis von Vue.js, womit man interaktive und
+            ansprechende Präsentationen mit der Markdown- oder HTML-Syntax
+            entwickelt. Zusätzlich lassen sich Komponenten mit Vue.js erstellen.
           </p>
           <a
             class="button underline-effect py-5 text-xl z-0"
