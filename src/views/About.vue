@@ -2,17 +2,38 @@
   <div id="about" class="w-full">
     <div class="max-w-3xl">
       <h2 class="text-6xl pb-10 uppercase md:text-9xl">About me</h2>
-      <h3 class="text-3xl md:text-5xl pb-5">Hallo, mein Name ist Florian</h3>
+      <h3 class="text-3xl md:text-5xl pb-5">
+        Hallo, ich bin Florian aus Oppenheim am Rhein.
+      </h3>
       <p class="text-xl">
-        und das ist meine Portfolio-Website. Ich komme aus Oppenheim, einem
-        kleinen Städtchen am Rhein. Ich bin gelernter Fachinformatiker & aktuell
-        am Ende meines Studiums in der Fachrichtung Medieninformatik. Jetzt bin
-        ich bereit für neue Herausforderungen und würde gerne meine erlernten
-        Fähigkeiten weiter ausbauen und meinen Tech-Stack erweitern. In den
-        letzten Jahren habe ich ein großes Interesse an der Web-Entwicklung
-        gefunden, weswegen ich mich zusammen mit meiner Schwester in diesem
-        Bereich selbstständig gemacht habe. Um einen Ausgleich für das ständige
-        Arbeiten am Computer zu finden, spiele ich von klein auf gerne Fußball.
+        Als ausgebildeter Fachinformatiker (IHK) und einem Bachelor in
+        Medieninformatik (B.Sc.) arbeite ich als Web-Entwickler bei DB Systel
+        GmbH in einem agilen DevOps-Team.<br /><br />
+
+        Meine Schwerpunkte liegen in der Web-Entwicklung mit Vue/Nuxt und
+        TypeScript sowie der Implementierung/Optimierung von CI/CD-Pipelines für
+        zuverlässige Softwarebereitstellungen. Dabei verbinde ich Kreativität
+        mit Technik, um nutzerzentrierte und barrierefreie Lösungen zu
+        entwickeln.<br /><br />
+
+        Bei DB Systel GmbH trage ich zur Digitalisierung der Deutschen Bahn bei,
+        indem ich innovative und moderne Weblösungen entwickle, die sowohl
+        technisch robust als auch benutzerfreundlich sind. Als Teil eines
+        interdisziplinären DevOps-Teams übernehme ich Verantwortung für den
+        gesamten Softwareentwicklungszyklus – von der Konzeption über die
+        Entwicklung bis hin zum Betrieb und der kontinuierlichen Verbesserung
+        unserer Anwendungen. Dabei pflege ich auch den direkten Kontakt zu
+        unseren Kunden, um deren Anforderungen zu verstehen und maßgeschneiderte
+        Lösungen zu entwickeln, die ihre spezifischen Bedürfnisse erfüllen.<br /><br />
+
+        Meine Leidenschaft gilt der kontinuierlichen Verbesserung von
+        Entwicklungsprozessen durch Automatisierung und der Förderung von
+        Barrierefreiheit in der Webentwicklung. Ich glaube fest daran, dass
+        Technologie für alle zugänglich sein sollte, weshalb ich mich als
+        Treiber für barrierefreie Anwendungen engagiere. Dabei setze ich auf
+        bewährte Standards wie WCAG-Richtlinien und moderne Accessibility-Tools,
+        um sicherzustellen, dass unsere Webanwendungen von allen Nutzern
+        verwendet werden können.
       </p>
       <router-link
         @click="scrollTo('#experience')"
