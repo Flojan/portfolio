@@ -7,24 +7,25 @@
     </div>
     <div class="grid grid-cols-1 gap-6">
       <div class="pb-8 lg:pb-0">
-        <h3 class="text-3xl md:text-5xl pb-1">2016 – Feb. 2023</h3>
-        <h4 class="text-xl md:text-2xl pb-4">Medieninformatik Studium</h4>
+        <h3 class="text-3xl md:text-5xl pb-1">2023 – Heute</h3>
+        <h4 class="text-xl md:text-2xl pb-4">DB Systel</h4>
         <p class="text-xl">
-          Nach meiner Ausbildung habe ich mich für den Studiengang
-          Medieninformatik an der Hochschule RheinMain entschieden, um meine
-          bereits erworbenen Fähigkeiten zu vertiefen, meine künstlerische Ader
-          zu erwecken und meine programmier Skills besser kennenzulernen. Als
-          Bachelor-Arbeit habe ich eine Website-Analyse-Plattform entwickelt, um
-          Website-Betreibern die Möglichkeit zu geben, den Erfolg ihrer Websites
-          zu messen. Damit können sie den Fortschritt ihrer Ziele überprüfen und
-          ggf. Optimierungen an der Website vornehmen. Dabei wurde darauf
-          geachtet, dass die Anforderungen der Datenschutzgesetze erfüllt werden
-          und das Tracking des Website-Nutzers ohne deren Einwilligung
-          ermöglicht. Hierbei sind die Technologien Next.js, Prisma, MySQL und
-          Tailwind CSS zum Einsatz gekommen. Allgemein im Studium lernte ich in
-          verschiedenen kleineren Projekten den Umgang mit Java, Python und SQL.
-          In größeren Projekten wurde mit Spring, Vue.js und React.js
-          gearbeitet.
+          Nach meinem Studium bin ich als Web-Entwickler bei DB Systel in ein
+          agiles DevOps-Team eingestiegen, das die Digitalisierung der Deutschen
+          Bahn vorantreibt. Mein Schwerpunkt liegt auf der Entwicklung moderner
+          Webanwendungen mit Vue/Nuxt und TypeScript, wobei ich besonderen Wert
+          auf nutzerzentriertes Design, Barrierefreiheit und innovative Features
+          lege. Ich begleite Projekte von der Konzeption bis zum Betrieb und
+          sorge mit durchdachten CI/CD-Pipelines für eine effiziente und sichere
+          Bereitstellung neuer Funktionen. Die enge Zusammenarbeit mit
+          Kolleg:innen aus verschiedenen Bereichen und der direkte Austausch mit
+          unseren Kunden machen meine Arbeit abwechslungsreich. Gemeinsam
+          entwickeln wir maßgeschneiderte Lösungen und optimieren bestehende
+          Anwendungen kontinuierlich weiter. Mir ist wichtig, dass unsere
+          Produkte nicht nur technisch robust, sondern auch intuitiv und für
+          alle zugänglich sind. Die kontinuierliche Verbesserung von
+          Entwicklungsprozessen und der Einsatz moderner Technologien motivieren
+          mich, die digitale Zukunft der Bahn aktiv mitzugestalten.
         </p>
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -32,30 +33,41 @@
           <h3 class="text-3xl md:text-5xl pb-1">2019 – Heute</h3>
           <h4 class="text-xl md:text-2xl pb-4">designzigartig GbR</h4>
           <p class="text-xl">
-            Nachdem ich die Leidenschaft zur Webentwicklung entwickelt habe,
-            entschloss ich mich mein bereits fundiertes Wissen in reellen
-            Projekten einzubringen. Deshalb bin ich zur Selbstständigkeit meiner
-            Schwester dazugestoßen. Sie ist Designerin und ich Web-Entwickler
-            mit einer Leidenschaft für gutes Design. Nun sind wir
-            designzigartig, eine Full-Service-Agentur, welche unter anderem
-            Websites erstellt. Wir betreiben das Ganze nebenberuflich und haben
-            hierbei schon einige Stammkunden gewonnen und interessante Projekte
-            umgesetzt.
+            Kreativität trifft Code: Gemeinsam mit meiner Schwester habe ich
+            designzigartig gegründet – eine Agentur, in der Design und
+            Webentwicklung Hand in Hand gehen. Nebenberuflich, aber mit
+            Leidenschaft, setzen wir individuelle Webprojekte für unsere Kunden
+            um. Mein Anspruch: Jede Website soll nicht nur gut aussehen, sondern
+            auch technisch überzeugen. So entstehen digitale Unikate, die im
+            Kopf bleiben. Wir legen großen Wert auf persönliche Beratung und
+            maßgeschneiderte Lösungen, die zu den Zielen unserer Kunden passen.
+          </p>
+        </div>
+        <div class="pb-8 lg:pb-0">
+          <h3 class="text-3xl md:text-5xl pb-1">2016 – Feb. 2023</h3>
+          <h4 class="text-xl md:text-2xl pb-4">Medieninformatik Studium</h4>
+          <p class="text-xl">
+            Im Studium an der Hochschule RheinMain habe ich meine Skills auf das
+            nächste Level gebracht: Von Java und Python bis hin zu Vue.js und
+            React – ich habe in vielen Projekten die ganze Bandbreite der
+            Medieninformatik erlebt. Mein Highlight: Die Entwicklung einer
+            eigenen Website-Analyse-Plattform als Bachelorarbeit, bei der ich
+            Next.js, Prisma, MySQL und Tailwind CSS kombiniert habe. Das Studium
+            hat mir gezeigt, wie Technik und Kreativität zusammen Großes
+            bewirken können.
           </p>
         </div>
         <div class="pb-8 lg:pb-0">
           <h3 class="text-3xl md:text-5xl pb-1">2021 – 2022</h3>
           <h4 class="text-xl md:text-2xl pb-4">3st kommunikation GmbH</h4>
           <p class="text-xl">
-            Meine 6-monatige berufspraktische Tätigkeit als Web-Developer
-            absolvierte ich bei 3st kommunikation GmbH. Es ist eine Agentur für
-            die Bereiche: Strategie, Design, Film, Redaktion und Programmierung.
-            Hierbei werden neue und faszinierende Markenerlebnisse erschaffen.
-            Durch die abwechslungsreichen Projekte in einer Agentur konnte ich
-            meinen Tech Stack erweitern und verbessern. Bei meinen Aufgaben
-            hatte ich es unter anderem mit React.js, Ruby, React Native und
-            PugJS zu tun. Nach meinem Praktikum wurde ich als Werkstudent
-            eingestellt.
+            Agenturleben pur: Bei 3st kommunikation war ich als Web-Enwickler
+            mitten im Geschehen. Unterschiedlichste Projekte, neue Technologien
+            und ein kreatives Team – hier konnte ich meinen Tech Stack mit
+            React.js, Ruby, React Native und PugJS erweitern. Nach dem Praktikum
+            ging’s direkt als Werkstudent weiter. Viel gelernt, viel erlebt!
+            Diese Erfahrungen haben meinen Blick für kreative Lösungen und
+            Teamarbeit geschärft.
           </p>
         </div>
         <div class="pb-8 lg:pb-0">
@@ -64,16 +76,13 @@
             Fachinformatiker Systemint. Ausbildung
           </h4>
           <p class="text-xl">
-            Meine Ausbildung zum Fachinformatiker für Systemintegration
-            absolvierte ich an der JGU Mainz im Institut für Kernphysik in der
-            IT-Abteilung. Diese Abteilung ist für den Betrieb des
-            Institutsrechenzentrums, Institutsnetzes und einer größeren Anzahl
-            zentraler und dezentraler Drucker verantwortlich. Des Weiteren
-            gewährleistet sie die Betreuung der ca. 300 Benutzer mit ihren PCs.
-            Hierbei war ich hauptsächlich im Bereich des 1st und 2nd Level
-            Supports tätig. Außerdem war ich für die Systemherstellung und
-            -betreuung, einschließlich Server, Clients, Peripheriegeräten und
-            Software zuständig.
+            Meine IT-Basis: Während meiner Ausbildung an der JGU Mainz war ich
+            im Institut für Kernphysik für alles rund um Server, Clients und
+            Support zuständig. 1st und 2nd Level Support, Systembetreuung und
+            jede Menge Praxis – hier habe ich das Fundament für meine weitere
+            Laufbahn gelegt. Diese Zeit hat mir nicht nur technisches Wissen
+            vermittelt, sondern auch meine Begeisterung für IT und
+            Problemlösungen geweckt.
           </p>
         </div>
         <div class="pb-8 lg:pb-0">
@@ -82,14 +91,12 @@
             Fachoberschule tech. Informatik
           </h4>
           <p class="text-xl">
-            Meine IT-Grundkenntnisse verbesserte ich als ich die Fachoberschule
-            Nierstein, Schwerpunkt technische Informatik besuchte. In der 11.
-            Klasse absolvierte ich ein einjähriges Praktikum bei der JGU Mainz
-            im Institut für Kernphysik in der EDV-Abteilung. Das Praktikum fand
-            an 3 Tagen in der Woche statt und 2 Tage hatte ich normalen
-            Unterricht. Hierbei hatte ich zum ersten Mal richtigen Kontakt zur
-            Berufswelt. In der 12. Klasse hatte ich normalen Unterricht mit
-            Schwerpunkt technische Informatik.
+            Der Startschuss für meine IT-Karriere: Auf der FOS Nierstein habe
+            ich nicht nur die Schulbank gedrückt, sondern auch im Praktikum an
+            der JGU Mainz erste Berufserfahrung gesammelt. Technik, Praxis und
+            Theorie – die perfekte Mischung für meinen Weg in die IT. Diese Zeit
+            hat mein Interesse an Informatik nachhaltig gestärkt und meinen
+            weiteren Weg geprägt.
           </p>
         </div>
       </div>
