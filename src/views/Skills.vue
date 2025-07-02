@@ -8,7 +8,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div class="pb-8">
         <div class="flex items-center pb-4">
-          <h3 class="text-3xl md:text-5xl pb-1">Vue.js</h3>
+          <h3 class="text-3xl md:text-5xl pb-1">Vue.js &amp; Nuxt</h3>
           <svg
             aria-hidden="true"
             focusable="false"
@@ -29,14 +29,39 @@
               transform="translate(0 -32)"
             />
           </svg>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 448"
+            class="w-10 ml-4"
+          >
+            <path
+              class="fill-current text-black dark:text-white"
+              d="M416.000411,0 L31.9004113,0 C14.1812006,0.132096848 -0.0882936337,14.5805189 0,32.3 L0,415.7 C-0.0882936337,433.419481 14.1812006,447.867903 31.9004113,448 L416.000411,448 C433.740296,447.878924 448.044872,433.440242 448.000515,415.7 L448.000515,32.3 C448.044872,14.5597583 433.740296,0.121076049 416.000411,0 Z"
+              id="Path"
+            ></path>
+
+            <path
+              class="fill-current text-white dark:text-black"
+              d="M196.913895,229 L327.395538,229 C331.53977,229 335.611602,227.942426 339.200374,225.93211 C342.789726,223.922373 345.76975,221.031131 347.840998,217.549131 C349.912245,214.06771 351,210.118316 351,206.098842 C351,202.078788 349.905295,198.130552 347.830572,194.650869 L260.202786,47.4367485 C258.131538,43.9559068 255.152093,41.0653603 251.5639,39.0556231 C247.975706,37.0458858 243.905033,35.987791 239.76138,35.987791 C235.617726,35.987791 231.547632,37.0458858 227.95886,39.0556231 C224.370667,41.0653603 221.391221,43.9559068 219.319974,47.4367485 L196.913895,85.1033941 L153.106662,11.4472779 C151.033677,7.96672576 148.053073,5.07657305 144.463722,3.06719492 C140.87437,1.05782258 136.803118,0 132.658885,0 C128.514653,0 124.4434,1.05782258 120.854049,3.06719492 C117.264697,5.07657305 114.284093,7.96672576 112.211108,11.4472779 L3.16933305,194.650869 C1.0948941,198.130552 0,202.078788 0,206.098842 C0,210.118316 1.08774668,214.06771 3.1590579,217.549131 C5.23036913,221.031131 8.21038807,223.922373 11.7994499,225.93211 C15.3884539,227.942426 19.459938,229 23.6043444,229 L105.509673,229 C137.961534,229 161.893826,215.173935 178.361286,188.200018 L218.341113,121.043519 L239.755008,85.1033941 L304.02334,193.059296 L218.341113,193.059296 L196.913895,229 Z M104.174598,193.022808 L47.0149438,193.010066 L132.697113,49.0770879 L175.449029,121.043519 L146.824573,169.144581 C135.888549,186.646091 123.465118,193.022808 104.174598,193.022808 Z"
+              id="Shape"
+              transform="translate(50 100)"
+            ></path>
+          </svg>
         </div>
         <p class="text-xl">
-          Das JavaScript-Framework Vue.js 3 konnte ich bisher in zwei Uni
-          Modulen kennenlernen und auch privat wurde es schon in mehreren
-          Projekten eingesetzt. Hierbei handelte es sich um den ersten Kontakt
-          mit einem JavaScript-Framework. Aufgrund der geringen Lernkurve konnte
-          ich dabei schnell mithilfe meiner HTML und CSS Kenntnisse Fortschritte
-          erzielen.
+          Vue.js 3 war mein Einstieg in die Welt der JavaScript-Frameworks –
+          sowohl im Studium als auch in privaten Projekten konnte ich damit
+          schnell erste Erfolge erzielen. Die intuitive Struktur und die enge
+          Verzahnung mit HTML und CSS haben mir den Einstieg besonders leicht
+          gemacht. Mit Nuxt habe ich meine Kenntnisse gezielt erweitert und
+          setze es bei DB Systel ein, um skalierbare, SEO-freundliche und
+          wartbare Lösungen zu entwickeln. Die Kombination aus Flexibilität,
+          Effizienz und einer starken Community macht Vue und Nuxt für mich zu
+          unverzichtbaren Tools in der professionellen Webentwicklung.
         </p>
       </div>
       <div class="pb-8">
@@ -135,9 +160,12 @@
           Durch diese Erfahrung kam ich auf das Framework Next.js, welches auf
           React.js basiert und sowohl für das Frontend als auch das Backend
           eingesetzt werden kann. Next.js kam in meiner Bachelor-Arbeit und
-          bereits zuvor bei einem Kundenprojekt zum Einsatz.
+          bereits zuvor bei einem Kundenprojekt zum Einsatz. Besonders schätze
+          ich an React die Flexibilität und die große Community, die es einfach
+          macht, moderne und performante Anwendungen zu entwickeln.
         </p>
       </div>
+
       <div class="pb-8">
         <div class="flex items-center pb-4">
           <h3 class="text-3xl md:text-5xl pb-1">React Native</h3>
@@ -163,11 +191,11 @@
           </svg>
         </div>
         <p class="text-xl">
-          In der Zeit meines Praktikums bei 3st, durfte ich für einen Kunden mit
-          React Native eine iOS und Android App erstellen. Diese bestand aus
-          einigen nativen sowie mehreren WebView Screens. Des Weiteren sollte es
-          möglich sein, einige Texte und Bilder über eine API-Schnittstelle
-          dynamisch auszutauschen.
+          Während meines Praktikums bei 3st entwickelte ich für einen Kunden
+          eine App für iOS und Android mit React Native. Die Anwendung
+          kombinierte native Komponenten mit mehreren WebView-Screens. Inhalte
+          wie Texte und Bilder konnten dynamisch über eine API-Schnittstelle
+          aktualisiert werden.
         </p>
       </div>
       <div class="pb-8">
@@ -195,10 +223,10 @@
           </svg>
         </div>
         <p class="text-xl">
-          Das plattformübergreifende Entwicklungs-Kit Flutter habe ich bei einem
-          Modul in der Uni benutzt. Hierbei wurde eine App programmiert, welche
-          auf iOS und Android lief. Um die Daten zu speichern, wurde Firebase
-          als Datenpersistenz verwendet.
+          Mit Flutter habe ich im Rahmen eines Uni-Moduls eine
+          plattformübergreifende App für iOS und Android programmiert. Für die
+          Datenspeicherung kam Firebase zum Einsatz, wodurch die App flexibel
+          und skalierbar wurde.
         </p>
       </div>
       <div class="pb-8">
@@ -247,10 +275,11 @@
           </svg>
         </div>
         <p class="text-xl">
-          Die CMS Joomla und WordPress verwendete ich anfangs ausschließlich bei
-          designzigartig, damit unsere Kunden ihre Website nach der Übergabe
-          selbst bearbeiten bzw. erweitern können. Falls die Kunden dies nicht
-          benötigten, habe ich stattdessen Next.js oder Vue.js verwendet.
+          Joomla und WordPress nutzte ich vor allem bei designzigartig, damit
+          unsere Kunden ihre Websites nach der Übergabe selbstständig pflegen
+          und erweitern können. Wenn keine CMS-Funktionalität benötigt wurde,
+          setzte ich stattdessen auf moderne Frameworks wie Next.js oder
+          Nuxt.js.
         </p>
       </div>
       <div class="pb-8">
@@ -283,9 +312,9 @@
           </svg>
         </div>
         <p class="text-xl">
-          Die Programmiersprache Python lernte ich in der Uni in einem Modul
-          kennen. Auch privat nutze ich Python als Werkzeug, zum Beispiel um
-          kleine Skripte oder Bots zu schreiben.
+          Python lernte ich im Studium kennen und nutze es seitdem auch privat,
+          etwa für kleine Automatisierungsskripte oder Bots. Die Vielseitigkeit
+          der Sprache macht sie für viele Aufgaben zum idealen Werkzeug.
         </p>
       </div>
       <div class="pb-8">
@@ -339,12 +368,10 @@
           </svg>
         </div>
         <p class="text-xl">
-          Sowohl in der Schule, in der Ausbildung als auch während meines
-          Studiums habe ich Java gelernt und angewendet. Java ist die allererste
-          Programmiersprache, die ich gelernt habe und mich circa die Hälfte
-          meines Studiums begleitet hat. Hiermit wurde ich auch mit der
-          objektorientierten Programmierung vertraut. Außerdem habe ich mit
-          JavaFX meine erste Desktop-Anwendung entwickelt.
+          Java war meine erste Programmiersprache – gelernt in Schule,
+          Ausbildung und Studium. Sie hat mich lange begleitet und mir die
+          Grundlagen der objektorientierten Programmierung vermittelt. Mit
+          JavaFX entwickelte ich zudem meine erste eigene Desktop-Anwendung.
         </p>
       </div>
       <div class="pb-8">
@@ -372,10 +399,10 @@
           </svg>
         </div>
         <p class="text-xl">
-          Das Java-Framework Spring, habe ich in zwei Uni Modulen kennenlernen
-          können. Dabei wurde Spring als Backend verwendet und das Frontend
-          wurde mit Vue.js umgesetzt. Für die Datenpersistenz wurde eine
-          einfache relationale Datenbank namens H2 verwendet.
+          Das Java-Framework Spring lernte ich in mehreren Uni-Modulen kennen.
+          Es diente als Backend für Webanwendungen, während das Frontend meist
+          mit Vue.js umgesetzt wurde. Für die Datenhaltung kam eine relationale
+          H2-Datenbank zum Einsatz.
         </p>
       </div>
     </div>
