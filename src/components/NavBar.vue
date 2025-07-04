@@ -266,6 +266,7 @@ export default defineComponent({
     function scrollTo(hash: string) {
       gsap.registerPlugin(ScrollToPlugin);
       gsap.to(window, { duration: 1, scrollTo: { y: hash, offsetY: 130 } });
+      if (open) toggle();
       console.log(hash);
     }
 

@@ -435,12 +435,12 @@ export default defineComponent({
           -(container!.scrollWidth - document.documentElement.clientWidth) +
           -30 +
           "px",
-        ease: "none",
+        ease: "power2.inOut",
         scrollTrigger: {
           trigger: ".projects",
           invalidateOnRefresh: true,
           pin: true,
-          scrub: 1,
+          scrub: 2,
           start: "top 130",
           pinSpacing: false,
         },
