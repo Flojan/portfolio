@@ -13,7 +13,7 @@ export default defineComponent({
       isTouchDevice();
       document.addEventListener("DOMContentLoaded", function (event) {
         let cursor = document.querySelector(".custom-cursor");
-        let links = document.querySelectorAll("a");
+        let links = document.querySelectorAll("a, button");
         let initCursor = false;
 
         for (let i = 0; i < links.length; i++) {

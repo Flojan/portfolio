@@ -56,40 +56,38 @@
           </a>
         </div>
 
-        <div @click="toggle" class="md:hidden pt-1" id="burgermenu">
-          <a>
-            <svg
-              v-if="!open"
-              class="w-8"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-            <svg
-              v-else
-              class="w-8"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </a>
-        </div>
+        <button @click="toggle" class="md:hidden pt-1" id="burgermenu">
+          <svg
+            v-if="!open"
+            class="w-8"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16"
+            />
+          </svg>
+          <svg
+            v-else
+            class="w-8"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
       </div>
 
       <!-- Desktop menu -->
@@ -253,7 +251,7 @@ export default defineComponent({
             pin: true,
             scrub: 0.2,
             start: "top top",
-            end: "+=10000",
+            end: "+=15000",
           },
         })
         .to("#logo", {
