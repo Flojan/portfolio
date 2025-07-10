@@ -21,40 +21,38 @@
       </div>
 
       <div class="flex space-x-4">
-        <div @click="setTheme()" class="md:hidden">
-          <a>
-            <svg
-              v-if="theme === 'dark'"
-              class="w-8"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9.66353 17H14.3365M8.46447 15.5355C6.51184 13.5829 6.51184 10.4171 8.46447 8.46447C10.4171 6.51184 13.5829 6.51184 15.5355 8.46447C17.4882 10.4171 17.4882 13.5829 15.5355 15.5355L14.9884 16.0826C14.3556 16.7155 14 17.5739 14 18.4689V19C14 20.1045 13.1046 21 12 21C10.8954 21 10 20.1045 10 19V18.4689C10 17.5739 9.64445 16.7155 9.01156 16.0826L8.46447 15.5355Z"
-              />
-            </svg>
-            <svg
-              v-else-if="theme === 'light'"
-              class="w-8"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-              />
-            </svg>
-          </a>
-        </div>
+        <button @click="setTheme()" class="md:hidden">
+          <svg
+            v-if="theme === 'dark'"
+            class="w-8"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9.66353 17H14.3365M8.46447 15.5355C6.51184 13.5829 6.51184 10.4171 8.46447 8.46447C10.4171 6.51184 13.5829 6.51184 15.5355 8.46447C17.4882 10.4171 17.4882 13.5829 15.5355 15.5355L14.9884 16.0826C14.3556 16.7155 14 17.5739 14 18.4689V19C14 20.1045 13.1046 21 12 21C10.8954 21 10 20.1045 10 19V18.4689C10 17.5739 9.64445 16.7155 9.01156 16.0826L8.46447 15.5355Z"
+            />
+          </svg>
+          <svg
+            v-else-if="theme === 'light'"
+            class="w-8"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+            />
+          </svg>
+        </button>
 
         <button @click="toggle" class="md:hidden pt-1" id="burgermenu">
           <svg
@@ -144,7 +142,7 @@
         leave-to-class="transform scale-95 opacity-0"
       >
         <div
-          v-if="open === true"
+          v-show="open === true"
           class="w-full md:flex-grow md:items-center md:w-auto md:hidden pb-6"
         >
           <div
@@ -181,46 +179,44 @@
           </div>
         </div>
       </transition>
-      <div @click="setTheme()" class="hidden md:flex">
-        <a>
-          <svg
-            v-if="theme === 'dark'"
-            class="w-8"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9.66353 17H14.3365M8.46447 15.5355C6.51184 13.5829 6.51184 10.4171 8.46447 8.46447C10.4171 6.51184 13.5829 6.51184 15.5355 8.46447C17.4882 10.4171 17.4882 13.5829 15.5355 15.5355L14.9884 16.0826C14.3556 16.7155 14 17.5739 14 18.4689V19C14 20.1045 13.1046 21 12 21C10.8954 21 10 20.1045 10 19V18.4689C10 17.5739 9.64445 16.7155 9.01156 16.0826L8.46447 15.5355Z"
-            />
-          </svg>
-          <svg
-            v-else-if="theme === 'light'"
-            class="w-8"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            />
-          </svg>
-        </a>
-      </div>
+      <button @click.stop="setTheme()" class="hidden md:flex">
+        <svg
+          v-if="theme === 'dark'"
+          class="w-8"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.66353 17H14.3365M8.46447 15.5355C6.51184 13.5829 6.51184 10.4171 8.46447 8.46447C10.4171 6.51184 13.5829 6.51184 15.5355 8.46447C17.4882 10.4171 17.4882 13.5829 15.5355 15.5355L14.9884 16.0826C14.3556 16.7155 14 17.5739 14 18.4689V19C14 20.1045 13.1046 21 12 21C10.8954 21 10 20.1045 10 19V18.4689C10 17.5739 9.64445 16.7155 9.01156 16.0826L8.46447 15.5355Z"
+          />
+        </svg>
+        <svg
+          v-else-if="theme === 'light'"
+          class="w-8"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+          />
+        </svg>
+      </button>
     </nav>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, onBeforeMount, onMounted, reactive } from "vue";
+import { defineComponent, onBeforeMount, onMounted } from "vue";
 import { useTheme } from "../modules/theme";
 import { useMobileNav } from "../modules/mobileNav";
 import gsap from "gsap";
@@ -264,8 +260,8 @@ export default defineComponent({
     function scrollTo(hash: string) {
       gsap.registerPlugin(ScrollToPlugin);
       gsap.to(window, { duration: 1, scrollTo: { y: hash, offsetY: 130 } });
-      if (open) toggle();
-      console.log(hash);
+
+      if (open && hash !== "#nav-bar") toggle();
     }
 
     return { setTheme, theme, scrollTo, toggle, open };
