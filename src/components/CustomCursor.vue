@@ -36,20 +36,23 @@ export default defineComponent({
           let mouseY = event.clientY;
 
           if (!initCursor) {
-            gsap.to(cursor, 0.3, {
+            gsap.to(cursor, {
+              duration: 0.3,
               opacity: 1,
             });
             initCursor = true;
           }
 
-          gsap.to(cursor, 0, {
+          gsap.to(cursor, {
+            duration: 0,
             top: mouseY + "px",
             left: mouseX + "px",
           });
         };
 
         window.onmouseout = function () {
-          gsap.to(cursor, 0.3, {
+          gsap.to(cursor, {
+            duration: 0.3,
             opacity: 0,
           });
           initCursor = false;

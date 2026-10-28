@@ -12,7 +12,7 @@
     </div>
     <div class="flex space-x-6 ml-4 mr-4 scroll">
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Website-Analyse-Plattform</h3>
@@ -51,7 +51,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Kolloquium Präsentation</h3>
@@ -89,7 +89,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Pizza Caterer Website</h3>
@@ -125,7 +125,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Musikalbum Landingpage</h3>
@@ -162,7 +162,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Meine Portfolio Website</h3>
@@ -198,7 +198,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">designzigartig Website</h3>
@@ -234,7 +234,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">iOS/Android App</h3>
@@ -270,7 +270,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Designer Portfolio Website</h3>
@@ -306,7 +306,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Clicker-Game als WebApp</h3>
@@ -342,7 +342,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Firmenwebsite</h3>
@@ -377,7 +377,7 @@
         </div>
       </div>
       <div
-        class="w-full 2xl:w-1/2 flex flex-col flex-shrink-0 items-start xl:items-center"
+        class="w-full 2xl:w-1/2 flex flex-col shrink-0 items-start xl:items-center"
       >
         <div class="max-w-xl">
           <h3 class="text-3xl md:text-5xl pb-1">Webshop</h3>
